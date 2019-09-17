@@ -1,0 +1,47 @@
+
+.container {
+    
+    width: auto;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.container-img {
+    background: #2980b9;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.article-title {
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.block-text {
+    background: #d35400;
+    text-align: justify;
+}
+
+.first-small-img {
+    float: left;
+    margin-right: 30px;
+    background: #2980b9;
+    width: 50%;
+    height: 200px;
+}
+
+.second-block-text {
+    float: none;
+    margin-right: 30px;
+    text-align: justify;
+    
+}
+
+second-small-img {
+    float: right;
+    margin-right: 30px;
+    background: #2980b9;
+    width: 50%;
+    height: 200px;
+}
