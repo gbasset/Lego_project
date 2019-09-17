@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+.menuContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red; /*debug*/
+}
+
+.containerActu {
+    border: 1px solid blue; /*debug*/
+    display: flex;
+    align-items: center;
+    width : 20em;
+}
+
+img {
+    display: flex;
+    width : 20em;
+    margin: 0.5em;
+    height: 10em;
+    background-color: grey;
+}
+
+#actu {
+    width: 5em;
+    height: 5em;
+    background-color: yellow;
+}
+
+/* ------- DESKTOP AND TABLET -------  */
+
+@media screen and (min-width: 961px) {
+
+    .containerActu {
+        border: 1px solid blue; /*debug*/
+        display: flex;
+        align-items: center;
+        width : 80%;
+        margin: 0.5em;
+        height: 30em;
+    }
+
+    .menuContainer {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid red; /*debug*/
+    }
+    
+    .containerActu {
+        border: 1px solid blue; /*debug*/
+        display: flex;
+        align-items: center;
+    }
+    
+    img {
+        display: flex;
+        width : 80%;
+        margin: 0.5em;
+        height: 30em;
+        background-color: grey;
+    }
+    
+    #actu {
+        width: 5em;
+        height: 5em;
+        background-color: yellow;
+    }
+}
