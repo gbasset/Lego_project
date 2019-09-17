@@ -14,14 +14,37 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid red; /*debug*/
 }
+
+/* ----- ACTU ----- */
 
 .containerActu {
     border: 1px solid blue; /*debug*/
     display: flex;
-    align-items: center;
     width : 20em;
+    display: flex;
+    justify-content: space-around;
+    height: 100%; 
+}
+
+/* ----- RUBRIQUE ----- */
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    width: 10em;
+    height: 5em;
 }
 
 img {
@@ -30,12 +53,20 @@ img {
     margin: 0.5em;
     height: 10em;
     background-color: grey;
+    opacity: 0.4;
+    transition: 0.8s;
+}
+
+img:active {
+    opacity: 1;
+    transition: 0.8s;
 }
 
 #actu {
     width: 5em;
     height: 5em;
-    background-color: yellow;
+    display: flex;
+    background-color: blue;
 }
 
 /* ------- DESKTOP AND TABLET -------  */
@@ -46,9 +77,9 @@ img {
         border: 1px solid blue; /*debug*/
         display: flex;
         align-items: center;
-        width : 80%;
+        width : 60em;
         margin: 0.5em;
-        height: 30em;
+        height: 35em;
     }
 
     .menuContainer {
@@ -65,18 +96,33 @@ img {
         display: flex;
         align-items: center;
     }
+
+    p {
+        width: 30%;
+
+    }
     
     img {
         display: flex;
-        width : 80%;
+        width : 60em;
         margin: 0.5em;
-        height: 30em;
+        height: 35em;
         background-color: grey;
+    }
+
+    img:hover {
+        opacity: 1;
+        transition: 0.8s;
+    }
+    
+    img :active {
+        opacity: 1;
+        transition: 0.8s;
     }
     
     #actu {
-        width: 5em;
-        height: 5em;
-        background-color: yellow;
+        width: 70%;
+        height: 30em;
+        background-color: blue;
     }
 }
