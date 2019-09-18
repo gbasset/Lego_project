@@ -4,6 +4,11 @@ body
     padding:0;
 }
 
+@font-face{
+    font-family : "legothick";
+    src : url('Legothick.ttf');
+}
+
 nav {
     display: flex;
     line-height: 6vh;
@@ -20,7 +25,7 @@ ul
 li a {
     text-decoration: none;
     color: rgb(255, 0, 0);
-    font-family:'Cute Font', cursive;
+    font-family : "legothick";
     font-size: 4vh;
     text-transform: uppercase;
 }
