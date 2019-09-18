@@ -1,0 +1,43 @@
+html, body{
+    margin: 0;
+    width: 100%;
+   
+}
+.conteneur{
+    
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;  
+    
+    height: 200px;
+    padding-right: 20px;
+    background-color: lightblue;  
+}
+h3{
+    text-align: center;
+    font-size: 2em;
+}
+img{
+    width: 15%;
+    height: 10%;
+}
+.icon {
+    font-size: 56px;
+}
+
+.ion-logo-facebook {
+    color: #4267b2;
+}
+.ion-logo-linkedin{
+    color: #0077B5;
+}
+.ion-logo-instagram {
+    color: #f09433;
+    
+}
+
+.ion-logo-youtube {
+    color: #ED3833;
+}
