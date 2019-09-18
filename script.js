@@ -1,14 +1,22 @@
-var content = document.querySelector('#hamburger-content');
-var sidebarBody = document.querySelector('#hamburger-sidebar-body');
-var button = document.querySelector('#hamburger-button');/* Le logo */
-var activatedClass = 'hamburger-activated'; /* var qui permet de savoir si un élément est activé*/
+document.getElementById("lego_blue").style.display = "flex";
+document.getElementById("lego_red").style.display = "none";
+document.getElementById("hamburger").style.display = "none";
 
-sidebarBody.innerHTML = content.innerHTML;			
+function deploy_menu() {
+	var display_lego_red = document.getElementById("lego_red")
+	var display_lego_blue = document.getElementById("lego_blue")
+    var display_hamburger = document.getElementById("hamburger")
+	display_hamburger.style.display = "flex";
+	display_lego_red.style.display = "flex";
+    display_lego_blue.style.display = "none";
+  }
 
-button.addEventListener('click', function(e) {
-	e.preventDefault(); /* annule les comportements par defaults*/
-
-	this.parentNode.classList.add(activatedClass);
-});
-
+  function hide_menu() {
+	var display_lego_red = document.getElementById("lego_red")
+	var display_lego_blue = document.getElementById("lego_blue")
+    var display_hamburger = document.getElementById("hamburger")
+	display_lego_blue.style.display = "flex";
+	display_hamburger.style.display = "none";
+    display_lego_red.style.display = "none";
+  }
 
