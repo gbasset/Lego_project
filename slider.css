@@ -1,0 +1,61 @@
+.container
+{
+    display : flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.box 
+{   
+    display : flex;
+    width : 80%;
+    height : 20vh;
+    justify-content: flex-start;
+    padding : 5% 5%;
+    transition: 0.5s;
+    overflow : hidden;
+    flex-wrap: wrap;
+}
+
+.box h2
+{
+    margin-left : 3%;
+    margin-top : 10%;
+    font-size : 3.5vh;
+}
+
+.box p
+
+{
+    margin-top : 6%;
+}
+
+.box img
+{
+    width : 30vh;
+    max-height : auto;
+    transition: 0.5s;
+}
+
+.grow_up1
+{
+    width : 90%;
+    height : 70vh;
+}
+
+.grow_up1 img
+{
+    width : 100%;
+}
+
+.grow_up2
+{
+    width : 90%;
+    height : 70vh;
+}
+
+.grow_up2 img
+{
+    width : 100%;
+}
+   
