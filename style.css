@@ -7,13 +7,24 @@
 }
 
 .container-img {
+    position: relative;
+    text-align: center;
     background: #2980b9;
     height: 300px;
     margin-bottom: 30px;
 }
 
+.img-big {
+    height: 300px;
+    width: auto;
+}
+
 .article-title {
-    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
     color: #fff;
     text-transform: uppercase;
 }
@@ -23,25 +34,38 @@
     text-align: justify;
 }
 
+
+.block {
+    display: inline-block;
+}
+
+.first-block-text {
+    margin-top: 60px;
+}
+
 .first-small-img {
     float: left;
-    margin-right: 30px;
+    margin-right: 20px;
     background: #2980b9;
     width: 50%;
     height: 200px;
 }
 
-.second-block-text {
-    float: none;
-    margin-right: 30px;
-    text-align: justify;
+.second-block {
+    display: inline-block;
+}
+
+.second-text {
+
     
 }
 
-second-small-img {
+.second-small-img {
     float: right;
-    margin-right: 30px;
+    margin-right: 20px;
     background: #2980b9;
     width: 50%;
     height: 200px;
 }
+
+
