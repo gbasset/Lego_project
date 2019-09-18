@@ -1,33 +1,46 @@
 
-.container 
-{
-    width: 100%;
+.container {
+    background: #dbdbdb;
+    height: auto;
+    width: auto;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
 }
 
-.container-img
-{
-    cursor: pointer;
-    display : flex;
-    flex-direction: column;
-    width : 100%;
+.container-img {
+    position: relative;
+    text-align: center;
+    height: auto;
+    margin-left: 0px;
 }
 
 .img-big {
-    width : 90%;
-    margin-left : 5%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    
 }
 
 .article-title {
-    text-align: center;
-    font-size: 3vh;
-    color: #000;
+    background: #2c3e50;
+    padding-left: 10px;
+    position: absolute;
+    display: inline;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -10%);
+    font-size: 30px;
+    color: #fff;
     text-transform: uppercase;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 800;
+    text-align: left;
 }
 
 #entire_article_1
 {   
     flex-direction: column;
-    height : 200vh;
+    height : 230vh;
     width : 100%;
     overflow : hidden;
     border-radius : 2px #000;
@@ -41,3 +54,81 @@
     border-radius : 2px #000;
 }
 
+.block-text {
+    color: #fff;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.block-text p {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #2c3e50;
+}
+
+.block {
+    display: inline-block;
+}
+
+.first-block-text {
+    margin-top: 60px;
+    color: #2c3e50;
+    text-align: center;
+}
+.first-small-img {
+    width: 100%;
+}
+
+.second-text p
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.second-block
+{
+    display: inline-block;
+}
+
+.second-text {
+  color: #2c3e50;
+}
+
+.second-img {
+    
+    height: 250px;
+    margin: auto;
+    
+}
+
+.third-img {
+    height: 250px;
+    margin: auto;
+}
+
+.fourth-img
+{
+    margin: auto;
+    height: 250px;
+}
+
+.container-small-img
+{
+    text-align: center;
+
+    
+}
+
+.img-footer
+{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.arrow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
