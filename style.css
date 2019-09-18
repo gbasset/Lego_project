@@ -1,6 +1,7 @@
 
 .container {
-    
+    background: #dbdbdb;
+    height: auto;
     width: auto;
     margin-left: 0.5em;
     margin-right: 0.5em;
@@ -9,31 +10,44 @@
 .container-img {
     position: relative;
     text-align: center;
-    background: #2980b9;
-    height: 300px;
-    margin-bottom: 30px;
+    height: auto;
+    margin-left: 0px;
 }
 
 .img-big {
-    height: 300px;
-    width: auto;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    
 }
 
 .article-title {
+    background: #2c3e50;
+    padding-left: 10px;
     position: absolute;
+    display: inline;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
+    transform: translate(-70%, -10%);
+    font-size: 30px;
     color: #fff;
     text-transform: uppercase;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 800;
+    text-align: left;
 }
 
 .block-text {
-    background: #d35400;
+    color: #fff;
     text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
-
+.block-text p {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #2c3e50;
+}
 
 .block {
     display: inline-block;
@@ -41,31 +55,63 @@
 
 .first-block-text {
     margin-top: 60px;
+    color: #2c3e50;
+    text-align: center;
 }
-
 .first-small-img {
-    float: left;
-    margin-right: 20px;
-    background: #2980b9;
-    width: 50%;
-    height: 200px;
+    width: 100%;
 }
 
-.second-block {
+.second-text p
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.second-block
+{
     display: inline-block;
 }
 
 .second-text {
+  color: #2c3e50;
+}
+
+.second-img {
+    
+    height: 250px;
+    margin: auto;
+    
+}
+
+.third-img {
+    height: 250px;
+    margin: auto;
+}
+
+.fourth-img
+{
+    margin: auto;
+    height: 250px;
+}
+
+.container-small-img
+{
+    text-align: center;
 
     
 }
 
-.second-small-img {
-    float: right;
-    margin-right: 20px;
-    background: #2980b9;
-    width: 50%;
-    height: 200px;
+.img-footer
+{
+    margin-top: 20px;
+    width: 100%;
 }
 
+.arrow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
+}
