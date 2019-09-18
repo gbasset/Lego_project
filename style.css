@@ -1,0 +1,10 @@
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.lex{
+    width: cal(25% - 2rem);
+    min-width: 200px;
+    margin-bottom: 2rem;
+}
