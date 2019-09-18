@@ -1,37 +1,31 @@
+document.getElementById("entire_article_1").style.display = "none";
+document.getElementById("entire_article_2").style.display = "none";
+
 function slide_growup() {
-    var element = document.getElementById("link_2");
-    element.classList.remove("grow_up1");
-    var element = document.getElementById("link_3");
-    element.classList.remove("grow_up1");
-    var element = document.getElementById("link_1");
-    element.classList.add("grow_up1"); 
-    document.getElementById("link_1").style.opacity="1";
-    document.getElementById("link_2").style.opacity="0.5";
-    document.getElementById("link_3").style.opacity="0.5";
+    var display_article = document.getElementById("entire_article_1")
+    var display_article_2 = document.getElementById("entire_article_2")
+    if (display_article.style.display === "none") 
+    {
+        display_article.style.display = "flex";
+        display_article_2.style.display = "none";
+    } 
+    else {
+        display_article.style.display = "none";
+    }
+  }
 
-}
+  function slide_growup_2() {
+    var display_article = document.getElementById("entire_article_1")
+    var display_article_2 = document.getElementById("entire_article_2")
+    if (display_article_2.style.display === "none") 
+    {
+        display_article_2.style.display = "flex";
+        display_article.style.display = "none";
+    } 
+    else {
+        display_article_2.style.display = "none";
+    }
+  }
 
-function slide_growup2() {
-    var element = document.getElementById("link_1");
-    element.classList.remove("grow_up1");
-    var element = document.getElementById("link_3");
-    element.classList.remove("grow_up1");
-    var element = document.getElementById("link_2");
-    element.classList.add("grow_up1");
-    document.getElementById("link_2").style.opacity="1";
-    document.getElementById("link_1").style.opacity="0.5";
-    document.getElementById("link_3").style.opacity="0.5";
-}
 
-function slide_growup3() {
-    var element = document.getElementById("link_1");
-    element.classList.remove("grow_up1");
-    var element = document.getElementById("link_2");
-    element.classList.remove("grow_up1");
-    var element = document.getElementById("link_3");
-    element.classList.add("grow_up1");
-    document.getElementById("link_2").style.opacity="0.5";
-    document.getElementById("link_1").style.opacity="0.5";
-    document.getElementById("link_3").style.opacity="1";
-}
 
