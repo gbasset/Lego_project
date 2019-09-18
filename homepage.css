@@ -33,12 +33,6 @@ html
     width : 20em;
 }
 
-.containerActu:active {
-    opacity: 1;
-    color: transparent;
-    transition: 0.8s;
-}
-
 h2 
 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -80,40 +74,6 @@ p
     color: black;
     position: relative;
     text-align: center;
-    opacity: 1;
-    transition: 0.8s;
-}
-
-.container:active {
-    color: transparent;
-    opacity: 1;
-    transition: 0.8s;
-}
-
-/*.text:active
-{
-    color: transparent;
-    opacity: 0;
-    transition: 0.8s;
-}*/
-
-.text 
-{
-    color: rgb(63, 63, 63);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 2em;
-    font-weight: 700;
-    left: 50%;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    transition: 0.8s;
-}
-
-/* all images */
-
-img:active {
-    opacity: 1;
     transition: 0.8s;
 }
 
@@ -123,10 +83,29 @@ img
     background-color: grey;
     height: 12em;
     margin: 0.5em;
-    opacity: 0.4;
+    opacity: 0.3;
     transition: 0.8s;
     width : 20em;
 }
+
+.text 
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img:active {
+    color: transparent;
+    opacity: 1;
+    transition: 0.8s;
+}
+
+
 
 /* ------- DESKTOP AND TABLET -------  */
 
