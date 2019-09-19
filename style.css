@@ -1,32 +1,44 @@
 html, body{
     margin: 0;
-    width: 100%;
+   
    
 }
-.conteneur{
-    
-}
-footer{
+
+.footerr{
+    position: relative; bottom:0;
     display: flex;
-    justify-content: flex-end;
     align-items: center;  
-    
-    height: 200px;
+    height: 80px;
     padding-right: 20px;
-    background-color: lightblue;  
+    background-color: rgb(255, 252, 77);  
+
+}
+p
+{
+  text-align: center;
 }
 h3{
     text-align: center;
     font-size: 2em;
+    margin: auto;
 }
 img{
     width: 15%;
     height: 10%;
 }
 .icon {
-    font-size: 56px;
+    font-size: 200%;
+    padding: 0 10px;
+    display: inline-block;
+    justify-content: space-between;
+    margin:auto;
 }
-
+.foot
+{
+  display: inline-block;
+    justify-content: space-between;
+    
+}
 .ion-logo-facebook {
     color: #4267b2;
 }
@@ -35,7 +47,6 @@ img{
 }
 .ion-logo-instagram {
     color: #f09433;
-    
 }
 
 .ion-logo-youtube {
