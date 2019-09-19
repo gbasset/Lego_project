@@ -1,10 +1,22 @@
-.box{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
+
 .lex{
-    width: cal(25% - 2rem);
-    min-width: 200px;
-    margin-bottom: 2rem;
+    
+    width: 80%;
+    height: 50%;
+    margin-bottom: 10em;
+    
+
+}
+ p{
+    width: 50;
+    height: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1{
+    font-size: 2em;
+    font-weight: bold;
+    color: red;
+    background-color: lightblue;
+    height: auto;
+    text-transform: uppercase;
 }
