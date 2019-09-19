@@ -277,6 +277,12 @@ p
         width: 100%;
     }
 
+    #actu:hover 
+    {
+    opacity: 1;
+    transition: 0.8s;
+    }
+
     h2 
     {
         margin: 0px 0px 0.5em 0px;
