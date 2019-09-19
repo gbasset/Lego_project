@@ -1,0 +1,61 @@
+article
+{
+    align-items : center;
+    background: #dbdbdb;
+    display : flex;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.slide 
+{
+    width : 30%;
+    margin-top : 2vh;
+}
+
+article h2
+{
+    background: #2c3e50;
+    font-size: 30px;
+    color: #fff;
+}
+
+.paragraph_1 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+article p
+{
+    color: #2c3e50;
+    text-align: justify;
+    width : 95%;
+    margin-left : 2.5%;
+}
+
+.img_lego
+{
+    margin-left : 60%;
+    width : 17%;
+}
+
+@media screen and (max-width: 750px) 
+{
+    .slide 
+    {
+        width : 90%;
+        margin-top : 2vh;
+    } 
+
+    article p
+    {
+        color: #2c3e50;
+        margin-left : 5%;
+        width :90%;
+    }
+    .img_lego
+    {
+        width : 24%;
+    }
+}
