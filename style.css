@@ -1,54 +1,80 @@
-html, body{
-    margin: 0;
-   
-   
-}
 
-.footerr{
-    position: relative; bottom:0;
-    display: flex;
-    align-items: center;  
-    height: 50px;
-    padding-right: 20px;
+
+
+
+footer
+{
     background-color: rgb(255, 252, 77);  
-
-}
-p
+   display : flex;
+   height : 10vh;
+   background-color: rgb(255, 252, 77);  
+   width : 100%;
+   overflow: auto;
+}#utils_left
 {
-  text-align: center;
-}
-h3{
-    text-align: center;
-    font-size: 2em;
-    margin: auto;
-}
-img{
-    width: 15%;
-    height: 10%;
-}
-.icon {
-    font-size: 200%;
-    padding: 0 10px;
-    display: inline-block;
-    justify-content: space-between;
-    margin:auto;
-}
-.foot
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   font-size: 1.7vh;
+   height: 70%;
+   justify-content: space-between;
+   list-style-type: none;
+   padding :0 1em;
+   width: 50%;
+}#utils_left li a
 {
-  display: inline-block;
-    justify-content: space-between;
-    
+   color : #ff1818
+;
+   text-decoration: none;
+   width: auto;
+}#utils_right
+{
+   display: flex;
+   flex-wrap: wrap;
+   font-size: 1.7vh;
+   height: 50%;
+   justify-content: space-between;
+   list-style-type: none;
+   margin-left : 30%;
+   padding :0.5em 1em;
+   width: 12%;
+}#utils_right li a
+{
+   color : #ff1818
+;
+   text-decoration: none;
+   width: auto;
 }
-.ion-logo-facebook {
-    color: #4267b2;
+span {
+    font-weight: bold;
+    color: #ff1818
 }
-.ion-logo-linkedin{
-    color: #0077B5;
-}
-.ion-logo-instagram {
-    color: #f09433;
+@media only screen and (max-width: 961px)
+{
+   #utils_left
+   {
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       font-size: 1.7vh;
+       height: 70%;
+       justify-content: space-between;
+       list-style-type: none;
+       padding :0 1em;
+       width: 75%;
+   }
+   #utils_right
+   {
+       display: flex;
+       flex-wrap: wrap;
+       font-size: 1.7vh;
+       height: 50%;
+       justify-content: space-between;
+       list-style-type: none;
+       margin-left : 10%;
+       padding :0.5em 1em;
+       width: 50%;
+   }
 }
 
-.ion-logo-youtube {
-    color: #ED3833;
-}
+
