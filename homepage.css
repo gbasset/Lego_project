@@ -184,9 +184,9 @@ p
     {
         align-items: center;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         height: 35em;
-        width : 60em;
+        width : 90%;
     }
 
     .textPresentation
@@ -332,7 +332,7 @@ background-color: rgb(255, 252, 77);
    list-style-type: none;
    margin-left : 30%;
    padding :0.5em 1em;
-   width: 12%;
+   width: 50%;
 }
 
 #utils_right li a
@@ -386,7 +386,7 @@ background-color: rgb(255, 252, 77);
        list-style-type: none;
        margin-left : 0;
        padding :0.5em 1em;
-       width: 50%;
+       width: 100%;
    }
 
    span 
