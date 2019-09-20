@@ -1,0 +1,142 @@
+body
+{
+    display : flex;
+    flex-direction: column;
+    justify-content : center;
+}
+
+.error
+{
+    display:flex;
+    justify-content : center;
+    height : auto;
+    text-align: center;
+    width : 50%;
+}
+
+footer
+{
+    background-color: rgb(255, 252, 77);  
+   display : flex;
+   height : 10vh;
+   background-color: rgb(255, 252, 77);  
+   width : 100%;
+   overflow: auto;
+   align-items: center;
+}
+
+#utils_left
+{
+   display: flex;
+   flex-wrap: wrap;
+   font-size: 1.7vh;
+   height: 70%;
+   justify-content: space-between;
+   list-style-type: none;
+   padding :0 1em;
+   width: 50%;
+   align-items: center;
+}
+
+#utils_left li a
+{
+   color : #ff1818;
+   font-family : "legothick";
+   font-size: 2em;
+   text-decoration: none;
+   width: auto;
+}
+
+#utils_right
+{
+   display: flex;
+   flex-wrap: wrap;
+   font-size: 1.7vh;
+   height: 50%;
+   justify-content: space-between;
+   list-style-type: none;
+   margin-left : 30%;
+   padding :0.5em 1em;
+   width: 50%;
+}
+
+#utils_right li a
+{
+   color : #ff1818;
+   font-family : "legothick";
+   font-size: 2em;
+   text-decoration: none;
+   width: auto;
+}
+
+span 
+{
+    color: #ff1818;
+    font-family : "legothick";
+    src : url('Legothick.ttf');
+    font-size: 2em;
+}
+
+@media screen and (max-width: 961px)
+{
+    footer
+{
+background-color: rgb(255, 252, 77);  
+   display : flex;
+   height : 10vh;
+   background-color: rgb(255, 252, 77);  
+   width : 100%;
+   overflow: auto;
+   align-items: center;
+}
+   #utils_left
+   {
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       flex-wrap: wrap;
+       font-size: 1.7vh;
+       height: 90%;
+       list-style-type: none;
+       padding :0 1em;
+       width: 75%;
+       
+   }
+
+   #utils_right
+   {
+       display: flex;
+       flex-wrap: wrap;
+       font-size: 1.7vh;
+       height: 50%;
+       justify-content: space-between;
+       list-style-type: none;
+       margin-left : 0;
+       padding :0.5em 1em;
+       width: 100%;
+   }
+
+   span 
+   {
+    color: #ff1818;
+    font-family : "legothick";
+    src : url('Legothick.ttf');
+    font-size: 1.5em;  
+    }
+
+    #utils_left li a
+    {
+    color : #ff1818;
+    font-size: 1.5em;
+    text-decoration: none;
+    width: auto;
+    }
+    #utils_right li a
+    {
+       color : #ff1818;
+       font-family : "legothick";
+       font-size: 1.3em;
+       text-decoration: none;
+       width: auto;
+    }
+}
