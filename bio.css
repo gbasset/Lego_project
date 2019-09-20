@@ -60,47 +60,15 @@ article p
     }
 }
 
-input 
-{ display: block;
-  margin: auto;
-  margin-top: 20px;
-  padding: auto;
-  width: 80%;
-}
-textarea
-{ display: block;
-  margin: auto;
-  margin-top: 20px;
-  padding: auto;
-  width: 50%;
-  text-align: center;
-  color: gray;
-
-}
-  
-  #submit {
-    width: 100px;
-    margin:auto;
-    margin-top: 10px;
-  }
-
-  footer
+footer
 {
-   background-color: rgb(255, 252, 77);  
+    background-color: rgb(255, 252, 77);  
    display : flex;
    height : 10vh;
    background-color: rgb(255, 252, 77);  
    width : 100%;
-   
-   /* ici */
-   position: absolute; 
-   bottom: 0; 
-   left: 0; 
-   right: 0;
-}
-
-
-#utils_left
+   overflow: auto;
+}#utils_left
 {
    display: flex;
    flex-direction: column;
@@ -111,17 +79,13 @@ textarea
    list-style-type: none;
    padding :0 1em;
    width: 50%;
-}
-
-#utils_left li a
+}#utils_left li a
 {
    color : #ff1818
 ;
    text-decoration: none;
    width: auto;
-}
-
-#utils_right
+}#utils_right
 {
    display: flex;
    flex-wrap: wrap;
@@ -143,7 +107,6 @@ span {
     font-weight: bold;
     color: #ff1818
 }
-
 @media only screen and (max-width: 961px)
 {
    #utils_left
