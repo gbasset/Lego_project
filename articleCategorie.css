@@ -197,7 +197,8 @@ footer
    background-color: rgb(255, 252, 77);  
    width : 100%;
    overflow: auto;
-}#utils_left
+}
+#utils_left
 {
    display: flex;
    flex-direction: column;
