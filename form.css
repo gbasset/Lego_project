@@ -1,4 +1,9 @@
 
+@font-face{
+   font-family : "legothick";
+   src : url('Legothick.ttf');
+}
+
 body
 {
    padding : 0;
@@ -21,6 +26,7 @@ body
    text-shadow: -1px -1px rgb(243, 255, 76), 1px 1px rgb(239, 255, 18), -1px 0 1px rgb(253, 98, 98);
    padding:16px;
    text-align:center;
+   font-family : "legothick";
   }
   h1 span {
    box-shadow: -1px -70px 100px  rgb(242, 255, 54);
@@ -34,7 +40,7 @@ body
 
   .form-style-new{
 	max-width: 450px;
-   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   font-family : "legothick";
    margin: auto;
 }
 
