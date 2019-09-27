@@ -20,28 +20,24 @@ body
 
   h1 {
     text-align: center;
-    color: rgb(255, 0, 0);
    font-weight: bold; 
-   font-size: 32px;
-   text-shadow: -1px -1px rgb(243, 255, 76), 1px 1px rgb(239, 255, 18), -1px 0 1px rgb(253, 98, 98);
+   color: white;
+   font-size: 45px;
    padding:16px;
    text-align:center;
    font-family : "legothick";
+   text-shadow: -1px -1px rgb(253, 253, 253), 1px 1px rgb(0, 0, 0), -3px 0 4px #000;
   }
-  h1 span {
-   box-shadow: -1px -70px 100px  rgb(242, 255, 54);
-
-  }
-
-
+  
 
   /* new form */ 
 
 
   .form-style-new{
 	max-width: 450px;
-   font-family : "legothick";
+   font-family: Arial, Helvetica, sans-serif;
    margin: auto;
+   display: block;
 }
 
 .form-style-new label{
@@ -117,6 +113,7 @@ body
 .form-style-new  input[type=submit]
 {
    margin-left:70%;
+ 
 }
 .required{
 	color:red;
@@ -138,6 +135,8 @@ body
    bottom: 0; 
    left: 0; 
    right: 0;
+   font-family: "legothick";
+   text-transform: uppercase;
 }
 
 
@@ -180,10 +179,9 @@ body
    text-decoration: none;
    width: auto;
 }
-span {
-    font-weight: bold;
-    color: #ff1818
-}
+#utils_right span{
+   color : #ff1818
+} 
 
 /* ---------------------------------------------------      Media Queries      --------------------------------------------  */
 
