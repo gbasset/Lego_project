@@ -1,22 +1,26 @@
 document.getElementById("lego_blue").style.display = "flex";
 document.getElementById("lego_red").style.display = "none";
-document.getElementById("hamburger").style.display = "none";
+document.getElementById('lego_blue_bis').style.display = 'none';
 
-function deploy_menu() {
-	var display_lego_red = document.getElementById("lego_red")
-	var display_lego_blue = document.getElementById("lego_blue")
-    var display_hamburger = document.getElementById("hamburger")
-	display_hamburger.style.display = "flex";
-	display_lego_red.style.display = "flex";
-    display_lego_blue.style.display = "none";
-  }
+const menu = document.getElementById("hamburger").style.display = "none";
+const blueLego = document.getElementById("lego_blue")
+const redLego = document.getElementById("lego_red")
 
-  function hide_menu() {
-	var display_lego_red = document.getElementById("lego_red")
-	var display_lego_blue = document.getElementById("lego_blue")
-    var display_hamburger = document.getElementById("hamburger")
-	display_lego_blue.style.display = "flex";
-	display_hamburger.style.display = "none";
-    display_lego_red.style.display = "none";
-  }
+blueLego.addEventListener('click', () => {
+	redLego.style.display = 'flex';
+	redLego.style.transform = 'rotate(180deg)';
+	hamburger.style.display = 'flex';
+	blueLego.style.display = 'none';
+});
+
+redLego.addEventListener('click', () => {
+	redLego.style.display = 'none';
+	blueLego.style.display = 'flex';
+	hamburger.style.display = 'none';
+});
+
+
+
+
+
 

@@ -34,18 +34,29 @@ ul
     list-style-type:none;
 }
 
-li a {
+li a 
+{
     color: rgb(255, 0, 0);
     font-family : "legothick";
     font-size: 4vh;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: uppercase;  
+    padding-top: 5px;
+}
+
+a:hover
+{
+    opacity: 1;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    transition-delay: 25ms;
 }
 
 #hamburger {
     background-color : rgb(241, 243, 129);
     justify-content: center;
 }
+
 
 #red 
 {
@@ -80,6 +91,14 @@ li a {
     font-family: "legothick";
     font-size: 2em;
     src : url('Legothick.ttf');
+}
+
+a.textPresentation:before
+{
+    border-left: 1px solid;
+    border-right: 1px solid;
+    -webkit-transform: scale(1,0);
+    transform: scale(1,0);
 }
 
 .legoFace
