@@ -15,34 +15,110 @@ body
 
   h1 {
     text-align: center;
-    font-weight: bolder;
-    color: rgb(0, 0, 0);
-    
+    color: rgb(255, 0, 0);
+   font-weight: bold; 
+   font-size: 32px;
+   text-shadow: -1px -1px rgb(243, 255, 76), 1px 1px rgb(239, 255, 18), -1px 0 1px rgb(253, 98, 98);
+   padding:16px;
+   text-align:center;
+  }
+  h1 span {
+   box-shadow: -1px -70px 100px  rgb(242, 255, 54);
+
   }
 
-input 
-{ display: block;
-  margin: auto;
-  margin-top: 20px;
-  padding: auto;
-  width: 80%;
+
+
+  /* new form */ 
+
+
+  .form-style-new{
+	max-width: 450px;
+   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   margin: auto;
 }
-textarea
-{ display: block;
-  margin: auto;
-  margin-top: 20px;
-  padding: auto;
-  width: 50%;
-  text-align: center;
-  color: gray;
+
+.form-style-new label{
+	display:block;
+	margin-bottom: 10px;
+}
+.form-style-new label > span{
+	float: left;
+	width: 100px;
+	color: rgb(255, 0, 0);
+	font-weight: bold;
+	font-size: 13px;
 
 }
-  
-  #submit {
-    width: 100px;
-    margin:auto;
-    margin-top: 10px;
-  }
+.form-style-new fieldset{
+	border-radius: 50px 40px 60px 20px;
+	margin: 0px 0px 10px 0px;
+	border: 1px solid rgb(255, 251, 40);
+	padding: 20px;
+	background: rgb(255, 252, 61);
+}
+.form-style-new fieldset legend{
+   color: rgb(255, 0, 0);
+   font-weight: bold;
+	border-top: 1px solid rgb(255, 251, 40);
+	border-left: 1px solid rgb(255, 251, 40);
+	border-right: 1px solid rgb(255, 251, 40);
+	border-radius: 27px 55px 100px 0px;
+	background: rgb(255, 251, 40);
+	padding: 0px 8px 3px 8px;
+	box-shadow: -0px -1px 1px rgb(255, 14, 14);
+	-moz-box-shadow:-0px -1px 1px rgb(255, 14, 14);
+	-webkit-box-shadow:-0px -1px 1px rgb(255, 14, 14);
+	font-size: 12px;
+}
+.form-style-new textarea{
+	width:250px;
+	height:100px;
+}
+.form-style-new input[type=text],
+.form-style-new input[type=number],
+.form-style-new input[type=email],
+.form-style-new select, 
+.form-style-new textarea{
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border: 1px solid rgb(255, 253, 109);
+	outline: none;
+	color:rgb(255, 0, 0);
+	padding: 5px 8px 5px 8px;
+	box-shadow: inset 1px 1px 4px #FFD5E7;
+	-moz-box-shadow: inset 1px 1px 4px #FFD5E7;
+	-webkit-box-shadow: inset 1px 1px 4px #FFD5E7;
+	background: rgb(242, 247, 181);
+	width:50%;
+}
+.form-style-new  input[type=submit],
+.form-style-new  input[type=button]{
+	background:rgb(242, 247, 181);
+	border: 1px solid rgb(196, 3, 3);
+	padding: 5px 15px 5px 15px;
+	color: rgb(255, 0, 0);
+	box-shadow: inset -1px -1px 3px rgba(255, 0, 0, 0.959);
+	-moz-box-shadow: inset -1px -1px 3px rgba(255, 0, 0, 0.959);
+	-webkit-box-shadow: inset -1px -1px 3px rgba(255, 0, 0, 0.959);
+	border-radius: 3px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;	
+   font-weight: bold;
+}
+.form-style-new  input[type=submit]
+{
+   margin-left:70%;
+}
+.required{
+	color:red;
+	font-weight:normal;
+}
+
+
+/* Here for the footer */
 
   footer
 {
@@ -51,7 +127,6 @@ textarea
    height : 10vh;
    background-color: rgb(255, 252, 77);  
    width : 100%;
-   
    /* ici */
    position: absolute; 
    bottom: 0; 
@@ -104,6 +179,9 @@ span {
     color: #ff1818
 }
 
+/* ---------------------------------------------------      Media Queries      --------------------------------------------  */
+
+
 @media only screen and (max-width: 961px)
 {
    #utils_left
@@ -132,6 +210,8 @@ span {
    }
 }
 
+
+/* */ 
 
 
   
