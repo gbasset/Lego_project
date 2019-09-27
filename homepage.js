@@ -1,6 +1,5 @@
 document.getElementById("lego_blue").style.display = "flex";
 document.getElementById("lego_red").style.display = "none";
-document.getElementById('lego_blue_bis').style.display = 'none';
 
 const menu = document.getElementById("hamburger").style.display = "none";
 const blueLego = document.getElementById("lego_blue")
