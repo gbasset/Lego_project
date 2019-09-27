@@ -95,7 +95,7 @@ body
 }
 .form-style-new  input[type=submit],
 .form-style-new  input[type=button]{
-	background:rgb(242, 247, 181);
+	background:rgb(240, 255, 80);
 	border: 1px solid rgb(196, 3, 3);
 	padding: 5px 15px 5px 15px;
 	color: rgb(255, 0, 0);
