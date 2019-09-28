@@ -19,7 +19,7 @@
 
  <div class="form-style-new">
   <form>
-  <fieldset><legend>Personal</legend>
+  <fieldset class="one"><legend>Personal</legend>
   <label for="name"><span>Name <span class="required">*</span></span><input type="text" class="input-field" name="name" value="" /></label>
 
   <label for="email"><span>Email <span class="required">*</span></span><input type="email" class="input-field" name="email" value="" /></label>
@@ -34,11 +34,12 @@
   <option value="Appointment">Travel with you</option>
   </select></label>
   </fieldset>
-
-  <fieldset><legend>Message</legend>
-  <label for="mess"><span>Message <span class="required">*</span></span><textarea name="mess" class="textarea-field"> Your Message Here</textarea></label>
-
+  <div class="secondform">
+  <fieldset> <legend>Message</legend>
+  <label for="mess"><span> <span class="required"></span></span><textarea name="mess" class="textarea-field"> Your Message Here  ...  </textarea></label>
+    
   </fieldset>
+</div>
 
   <label><span> </span><input type="submit" value="Submit" /></label>
 
