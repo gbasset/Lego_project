@@ -190,10 +190,11 @@ body
    flex-direction: column;
    flex-wrap: wrap;
    font-size: 2vh;
-   height: 70%;
+   height: 50%;
    justify-content: space-between;
    list-style-type: none;
    padding :0 1em;
+   margin:40px;
    width: 50%;
 }
 
@@ -215,6 +216,7 @@ body
    list-style-type: none;
    margin-left : 30%;
    padding :0.5em 1em;
+   margin-top:30px;
    width: 12%;
 }#utils_right li a
 {
