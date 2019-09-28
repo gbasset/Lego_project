@@ -42,7 +42,9 @@ body
 }
 
 .form-style-new label{
-	display:block;
+   display:block;
+   align-items: center;
+  
 	
 }
 .form-style-new label > span{
@@ -51,11 +53,13 @@ body
 	color: rgb(255, 0, 0);
 	font-weight: bold;
    font-size: 18px;
+   margin-right: 5px;
+
   
 
 }
-.form-style-new fieldset{
-	border-radius: 50px 40px 60px 20px;
+.form-style-new fieldset.one{
+	border-radius: 50px 40px 95px 20px;
 	margin: 0px 0px 10px 0px;
 	border: 1px solid rgb(255, 251, 40);
 	padding: 20px;
@@ -75,9 +79,24 @@ body
 	-webkit-box-shadow:-0px -1px 1px rgb(255, 14, 14);
 	font-size: 15px;
 }
+
+
+
+.secondform fieldset{
+	border-radius: 50px 40px 80px 20px;
+	margin: 0px 50px 40px 50px;
+	border: 1px solid rgb(255, 251, 40);
+	padding: 15px;
+   background: rgb(255, 252, 61);
+   
+}
 .form-style-new textarea{
-	width:250px;
-	height:100px;
+	width:300px;
+   height:100px;
+   padding: 15px 0px 80px 10px;
+   font-weight: bold;
+   text-align: center;
+   
 }
 .form-style-new input[type=text],
 .form-style-new input[type=number],
@@ -94,13 +113,13 @@ body
 	-moz-box-shadow: inset 1px 1px 4px #FFD5E7;
 	-webkit-box-shadow: inset 1px 1px 4px #FFD5E7;
 	background: rgb(242, 247, 181);
-   width:80%;
+   width:90%;
    margin-bottom: 15px;
    margin-right:auto;
    margin-left: auto;
 }
 .form-style-new select{
-	border: 1px solid rgb(255, 109, 109);
+	border: 1px solid rgb(255, 238, 85);
 	outline: none;
 	color:rgb(255, 0, 0);
 	padding: 5px 8px 5px 8px;
@@ -108,15 +127,17 @@ body
 	-moz-box-shadow: inset 1px 1px 4px #FFD5E7;
 	-webkit-box-shadow: inset 1px 1px 4px #FFD5E7;
 	background: rgb(242, 247, 181);
-   width:85%;
+   width:95%;
    margin-bottom: 15px;
    margin-right:auto;
    margin-left: auto;
+   font-weight: bold;
+   text-align: center;
 }
 .form-style-new  input[type=submit],
 .form-style-new  input[type=button]{
 	background:rgb(240, 255, 80);
-	border: 1px solid rgb(196, 3, 3);
+	border: 1px solid rgb(255, 241, 44);
 	padding: 5px 15px 5px 15px;
 	color: rgb(255, 0, 0);
 	box-shadow: inset -1px -1px 3px rgba(255, 0, 0, 0.959);
