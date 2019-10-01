@@ -11,14 +11,11 @@ html
     height: 100%;
 }
 
-.container {
-    background: #ffffff;
-}
+
 body
 {
     color:black;
-    background: #ffffff;
-    
+    background-image: url("https://i.postimg.cc/ZKrrQrYW/test-background-light-Grey.png");
     margin :0;
     padding:0;
 }
@@ -83,9 +80,10 @@ li a {
 
 .textPresentation
 {
+    color: #ffffff;
     display: flex;
     font-family: "legothick";
-    font-size: 2em;
+    font-size: 2.5em;
     src : url('Legothick.ttf');
 }
 
@@ -100,7 +98,7 @@ li a {
 .containerActu 
 {
     
-    color: #ffbb00;
+    color: #ffffff;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -113,7 +111,7 @@ li a {
 
 h2 
 {
-    color: #ffbb00;
+    color: #ffffff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2em;
     font-weight: 700;
@@ -140,7 +138,7 @@ p
 {
     display: flex;
     margin: 0;
-    opacity: 0.2;
+    opacity: 1;
     transition: 0.8s;
     width: 100%;
 }
@@ -155,7 +153,7 @@ p
 
 .container 
 {
-    color: black;
+    
     position: relative;
     text-align: center;
     transition: 0.8s;
@@ -163,17 +161,18 @@ p
 
 .img_cat
 {
+    
     display: flex;
     height: 12em;
     margin: 0.5em;
-    opacity: 0.3;
+    opacity: 1 ;
     transition: 0.8s;
     width : 20em;
 }
 
 .text 
 {
-    color: #ffbb00;
+    color: #ffffff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2em;
     font-weight: 700;
@@ -185,7 +184,7 @@ p
 }
 .textActu 
 {
-    color: #15739e;
+    color: #ffffff;
     font-family: 'Be Vietnam', sans-serif;
 }
 
@@ -213,7 +212,7 @@ p
     {
         display: flex;
         font-family: "legothick";
-        font-size: 5em;
+        font-size: 6em;
         src : url('Legothick.ttf');
     }
 
@@ -226,7 +225,7 @@ p
 
     .text 
     {
-        mix-blend-mode: multiply;
+        
         font-family: 'Be Vietnam', sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 7em;
         font-weight: 700;
@@ -238,15 +237,26 @@ p
 
     .textActu 
     {
-        color: #15739e;
+        filter: blur(0.5px);
+        color: #ffffff;
+        background: #ce352a;
+        opacity: 0.7;
+        border-radius: 10px;
         font-family: 'Be Vietnam', sans-serif;
         font-weight: 300;
         font-size: 1.8em;
         width: 90%;
+        height: 90px;
+    }
+
+    .textActu:hover{
+        filter: blur(0px);
+        opacity: 0.9;
     }
     
     .containerActu 
     {
+        
         background: #ffffff;
         align-items: center;
         display: flex;
@@ -281,7 +291,10 @@ p
     
     .img_cat 
     {
-        background-color: grey;
+        
+        border : solid 0.5em #ececec;
+        background-image: url("https://i.postimg.cc/sGsfWV2P/test-background-light-Grey.png[/img][/url]");
+        opacity: 0.7;
         display: flex;
         height: 35em;
         margin: 0.5em;
@@ -291,7 +304,7 @@ p
     .img_cat:hover 
     {
         opacity: 1;
-        transition: 0.5s;
+        
     }
     
     #actu 
