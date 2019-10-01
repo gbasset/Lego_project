@@ -18,8 +18,3 @@ redLego.addEventListener('click', () => {
 	hamburger.style.display = 'none';
 });
 
-
-
-
-
-
