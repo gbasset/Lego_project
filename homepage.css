@@ -328,6 +328,45 @@ p
     }
 }
 
+#perso1 {
+    position: absolute;
+    left: 5px;
+    bottom: 50px;
+    transform: scale(0.5);
+    z-index: -1;
+}
+
+#perso2 {
+    filter: blur(0px);
+    position: absolute;
+    right: 0px;
+    bottom: -500px;
+    transform: scale(1.5);
+    z-index: 1;
+}
+
+
+#perso3{
+    filter: blur(0px);
+    position: absolute;
+    right: -250px;
+    bottom: -3500px;
+    transform: scale(0.6);
+    z-index: 1;
+}
+
+
+#perso4 {
+    filter: blur(10px);
+    position: absolute;
+    left: -400px;
+    bottom: -1500px;
+    transform: scale(0.8);
+    z-index: 1;
+}
+
+
+
 /* FOOTER */
 
 footer
