@@ -22,7 +22,7 @@ function main() {
     const planeSize = 40;
 
     const loader = new THREE.TextureLoader();
-    const texture = loader.load('/examples/3d-obj-loader/assets/index.jpg');
+    const texture = loader.load('index.jpg');
     texture.wrapS = THREE.RepeatWrapping;
     texture.wrapT = THREE.RepeatWrapping;
     texture.magFilter = THREE.NearestFilter;
@@ -71,7 +71,7 @@ function main() {
 
   {
     const gltfLoader = new GLTFLoader();
-    gltfLoader.load('/examples/3d-obj-loader/assets/deathStarDef.gltf', (gltf) => {
+    gltfLoader.load('deathStarDef.gltf', (gltf) => {
       const root = gltf.scene;
       scene.add(root);
       
