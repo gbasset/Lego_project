@@ -3,7 +3,7 @@ import {OrbitControls} from 'https://threejsfundamentals.org/threejs/resources/t
 import {GLTFLoader} from 'https://threejsfundamentals.org/threejs/resources/threejs/r108/examples/jsm/loaders/GLTFLoader.js';
 
 function main() {
-  const canvas = document.querySelector('#c');
+  const canvas = document.querySelector('#canvas3d');
   const renderer = new THREE.WebGLRenderer({ alpha: true });
   const geometry = new THREE.BoxBufferGeometry( 1, 1, 1 );
   const material = new THREE.MeshBasicMaterial( { color: 0xffff00 } );
