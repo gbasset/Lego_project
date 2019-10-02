@@ -8,7 +8,8 @@ function deploy_menu() {
     var display_hamburger = document.getElementById("hamburger")
 	display_hamburger.style.display = "flex";
 	display_lego_red.style.display = "flex";
-    display_lego_blue.style.display = "none";
+	display_lego_red.style.transform = "rotate(180deg)";
+	display_lego_blue.style.display = "none";
   }
 
   function hide_menu() {

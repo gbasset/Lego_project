@@ -18,6 +18,7 @@ body
     background-image: url("https://i.postimg.cc/ZKrrQrYW/test-background-light-Grey.png");
     margin :0;
     padding:0;
+    overflow-x: hidden;
 }
 
 @font-face{
@@ -161,7 +162,7 @@ p
 
 .img_cat
 {
-    
+    border: solid 0.5em #ececec;
     display: flex;
     height: 12em;
     margin: 0.5em;
@@ -328,31 +329,31 @@ p
     }
 }
 
+/* --------- PERSONNAGES -------------- */
+
 #perso1 {
     position: absolute;
-    left: 5px;
-    bottom: 50px;
-    transform: scale(0.5);
+    margin-top: -60px;
+    margin-left: -185px;
+    transform: scale(0.2);
     z-index: -1;
 }
 
 #perso2 {
-    filter: blur(0px);
     position: absolute;
-    right: 0px;
-    bottom: -500px;
-    transform: scale(1.5);
+    transform: scale(0.3);
     z-index: 1;
+    margin-top:395px;
+    margin-left: 60px;
 }
 
 
 #perso3{
-    filter: blur(0px);
     position: absolute;
-    right: -250px;
-    bottom: -3500px;
-    transform: scale(0.6);
+    transform: scale(0.2);
     z-index: 1;
+    margin-top: 1000px;
+    margin-left: 80px;
 }
 
 
@@ -503,8 +504,9 @@ background-color: rgb(255, 252, 77);
         }
       }
 
-.background {
+/* .background {
     background-image:url(https://i.postimg.cc/15C5RHmZ/elodie-oudot-Light.jpg);
     height: 100%;
     width: 100%;
+} */
 }
