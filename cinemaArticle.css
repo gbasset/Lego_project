@@ -67,6 +67,11 @@
 .block {
     display: inline-block;
 }
+#canvas3d
+{
+    height : 50vh;
+    width : auto;
+}
 
 .first-block-text {
     font-family: 'Roboto', sans-serif;
