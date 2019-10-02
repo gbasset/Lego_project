@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Younsunart/Lego_project#readme",
   "dependencies": {
+    "concurrently": "^4.1.2",
     "http": "0.0.0"
   }
 }
