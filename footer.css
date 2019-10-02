@@ -1,11 +1,12 @@
+
+
 /* ------------------ Here for the footer secton ----------- */
 
 
 footer {
-   background-color: rgb(255, 252, 77);
    display: flex;
    height: 10vh;
-   background-color: rgb(255, 252, 77);
+   background-image: url(https://i.postimg.cc/k4G6vwjq/test-background-yellow.png);
    border-top: 2px solid rgba(255, 7, 7, 0.884);
    width: 100%;
    /* --- ici  permet de garder le footer sticky ---- */
@@ -25,8 +26,8 @@ footer {
 #utils_left {
    display: flex;
    flex-wrap: wrap;
-   font-size: 2vh;
-   height: 50%;
+   font-size: 2.5vh;
+   font-weight: 1000;
    justify-content: space-between;
    list-style-type: none;
    padding: 0 1em;
@@ -39,20 +40,21 @@ footer {
    color: #ff1818;
    text-decoration: none;
    width: auto;
+   
 }
 
 
 #utils_right {
    display: flex;
    flex-wrap: wrap;
-   font-size: 2vh;
-   height: 50%;
+   font-size: 2.5vh;
    justify-content: space-between;
    list-style-type: none;
    margin-left: 30%;
    padding: 0.5em 1em;
    margin-top: 30px;
    width: 12%;
+   font-weight: 1000;
 }
 
 
@@ -60,11 +62,13 @@ footer {
    color: #ff1818;
    text-decoration: none;
    width: auto;
+   
 }
 
 
 #utils_right span {
-   color: #ff1818
+   color: #ff1818;
+   width: auto;
 }
 
 
@@ -97,26 +101,28 @@ footer {
 
       display: inline-block;
       flex-wrap: wrap;
-      font-size: 1.7vh;
+      font-size: 2vh;
       height: 70%;
       justify-content: space-between;
       list-style-type: none;
       padding: 0 1em;
-      width: 75%;
+      
    }
 
 
    #utils_right {
       display: inline-block;
       flex-wrap: wrap;
-      font-size: 1.7vh;
+      font-size: 2vh;
       height: 50%;
       justify-content: space-between;
       list-style-type: none;
       margin-left: 10%;
       padding: 0.5em 1em;
-      width: 50%;
+
+
    }
+   
 
 
 
