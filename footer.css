@@ -4,6 +4,12 @@
 /* ------------------ Here for the footer secton ----------- */
 
 
+@font-face {
+   font-family: "legothick";
+   src: url('Legothick.ttf');
+}
+
+
 footer {
    display: flex;
    height: 10vh;
