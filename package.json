@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run open",
     "open": "concurrently \"http-server -a localhost -p 1234\" \"open http://localhost:1234/homepage.html\""
- },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Younsunart/Lego_project.git"
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Younsunart/Lego_project/issues"
   },
-  "homepage": "https://github.com/Younsunart/Lego_project#readme"
+  "homepage": "https://github.com/Younsunart/Lego_project#readme",
+  "dependencies": {
+    "http": "0.0.0"
+  }
 }
