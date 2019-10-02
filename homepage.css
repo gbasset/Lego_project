@@ -1,28 +1,26 @@
-* 
-{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-html 
-{
-    
+html {
+
     height: 100%;
 }
 
 
-body
-{
-    color:black;
+body {
+    color: black;
     background-image: url("https://i.postimg.cc/ZKrrQrYW/test-background-light-Grey.png");
-    margin :0;
-    padding:0;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
 }
 
-@font-face{
-    font-family : "legothick";
-    src : url('Legothick.ttf');
+@font-face {
+    font-family: "legothick";
+    src: url('Legothick.ttf');
 }
 
 nav {
@@ -31,34 +29,31 @@ nav {
     vertical-align: top;
 }
 
-ul
-{
-    margin:0;
-    padding:0;
-    list-style-type:none;
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
 li a {
     color: rgb(255, 0, 0);
-    font-family : "legothick";
+    font-family: "legothick";
     font-size: 4vh;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 #hamburger {
-    background-color : rgb(241, 243, 129);
+    background-color: rgb(241, 243, 129);
     justify-content: center;
 }
 
-#red 
-{
-    background-color : rgb(241, 243, 129);
-    width : 100%;
+#red {
+    background-color: rgb(241, 243, 129);
+    width: 100%;
 }
 
-.menuContainer 
-{
+.menuContainer {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -68,8 +63,7 @@ li a {
 
 /* ----- presentation bloc ----- */
 
-.containerPresentation
-{
+.containerPresentation {
     align-content: space-between;
     align-items: center;
     display: flex;
@@ -78,26 +72,23 @@ li a {
     width: 20em;
 }
 
-.textPresentation
-{
+.textPresentation {
     color: #ffffff;
     display: flex;
     font-family: "legothick";
     font-size: 2.5em;
-    src : url('Legothick.ttf');
+    src: url('Legothick.ttf');
 }
 
-.legoFace
-{
+.legoFace {
     display: flex;
     width: 8em;
 }
 
 /* ----- news container ----- */
 
-.containerActu 
-{
-    
+.containerActu {
+
     color: #ffffff;
     align-items: center;
     display: flex;
@@ -106,11 +97,10 @@ li a {
     margin: 0.5em;
     position: relative;
     text-align: center;
-    width : 20em;
+    width: 20em;
 }
 
-h2 
-{
+h2 {
     color: #ffffff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2em;
@@ -122,9 +112,8 @@ h2
     opacity: 1
 }
 
-p 
-{
-    bottom: 10%; 
+p {
+    bottom: 10%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 0.8em;
     height: 5em;
@@ -134,8 +123,7 @@ p
     width: 18em;
 }
 
-#actu 
-{
+#actu {
     display: flex;
     margin: 0;
     opacity: 1;
@@ -143,35 +131,31 @@ p
     width: 100%;
 }
 
-#actu:active 
-{
+#actu:active {
     opacity: 1;
     transition: 0.8s;
 }
 
 /* ----- topics ----- */
 
-.container 
-{
-    
+.container {
+
     position: relative;
     text-align: center;
     transition: 0.8s;
 }
 
-.img_cat
-{
-    
+.img_cat {
+
     display: flex;
     height: 12em;
     margin: 0.5em;
-    opacity: 1 ;
+    opacity: 1;
     transition: 0.8s;
-    width : 20em;
+    width: 20em;
 }
 
-.text 
-{
+.text {
     color: #ffffff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2em;
@@ -182,8 +166,8 @@ p
     transform: translate(-50%, -50%);
     opacity: 1
 }
-.textActu 
-{
+
+.textActu {
     color: #ffffff;
     font-family: 'Be Vietnam', sans-serif;
 }
@@ -196,36 +180,32 @@ p
 
 /* ------- DESKTOP AND TABLET -------  */
 
-@media screen and (min-width: 961px) 
-{
+@media screen and (min-width: 961px) {
 
-    .containerPresentation
-    {
+    .containerPresentation {
         align-items: center;
         display: flex;
         justify-content: space-around;
         height: 35em;
-        width : 90%;
+        width: 90%;
     }
 
-    .textPresentation
-    {
+    .textPresentation {
         display: flex;
         font-family: "legothick";
         font-size: 6em;
-        src : url('Legothick.ttf');
+        src: url('Legothick.ttf');
     }
 
-    .legoFace
-    {
+    .legoFace {
         display: flex;
         margin-left: 2em;
         width: 12em;
+        transform: scale(1.7)
     }
 
-    .text 
-    {
-        
+    .text {
+
         font-family: 'Be Vietnam', sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 7em;
         font-weight: 700;
@@ -235,11 +215,10 @@ p
         transform: translate(-50%, -50%);
     }
 
-    .textActu 
-    {
+    .textActu {
         filter: blur(0.5px);
-        color: #ffffff;
-        background: #ce352a;
+        color: #000000;
+        background: #ffa011;
         opacity: 0.7;
         border-radius: 10px;
         font-family: 'Be Vietnam', sans-serif;
@@ -249,262 +228,255 @@ p
         height: 90px;
     }
 
-    .textActu:hover{
+    .textActu:hover {
         filter: blur(0px);
         opacity: 0.9;
     }
-    
-    .containerActu 
-    {
-        
+
+    .containerActu {
+
         background: #ffffff;
         align-items: center;
         display: flex;
         text-align: center;
         height: 30em;
         margin: 0.5em;
-        width : 60em;
+        width: 60em;
     }
 
-    .menuContainer 
-    {
+    .menuContainer {
         align-items: center;
         display: flex;
         flex-direction: column;
         height: 100%;
         width: 100%;
     }
-    
-    .containerActu 
-    {
+
+    .containerActu {
         align-items: center;
         display: flex;
     }
 
-    p 
-    {
+    p {
         display: flex;
         height: 5em;
         justify-content: center;
         width: 100%;
     }
-    
-    .img_cat 
-    {
-        
-        border : solid 0.5em #ececec;
+
+    .img_cat {
+
+        border: solid 0.5em #ececec;
         background-image: url("https://i.postimg.cc/sGsfWV2P/test-background-light-Grey.png[/img][/url]");
         opacity: 0.7;
         display: flex;
         height: 35em;
         margin: 0.5em;
-        width : 60em;
+        width: 60em;
     }
 
-    .img_cat:hover 
-    {
+    .img_cat:hover {
         opacity: 1;
-        
+
     }
-    
-    #actu 
-    {
+
+    #actu {
         height: 30em;
         width: 100%;
     }
 
-    #actu:hover 
-    {
+    #actu:hover {
         opacity: 1;
         transition: 0.5s;
     }
 
-    h2 
-    {
+    h2 {
         font-family: 'Be Vietnam', sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 6em;
         font-weight: 700;
         margin: 0px 0px 0.5em 0px;
     }
+
+    .perso1 {
+        position: absolute;
+        left: 5px;
+        bottom: 50px;
+        transform: scale(0.5);
+        z-index: -1;
+    }
+
+    .perso2 {
+        filter: blur(0px);
+        position: absolute;
+        right: 0px;
+        bottom: -500px;
+        transform: scale(1.5);
+        z-index: 1;
+    }
+
+
+    .perso3 {
+        filter: blur(0px);
+        position: absolute;
+        right: -250px;
+        bottom: -3500px;
+        transform: scale(0.6);
+        z-index: 1;
+    }
+
+
+    .perso4 {
+        filter: blur(5px);
+        position: absolute;
+        left: -400px;
+        bottom: -1500px;
+        transform: scale(0.8);
+        z-index: 1;
+    }
 }
 
-#perso1 {
-    position: absolute;
-    left: 5px;
-    bottom: 50px;
-    transform: scale(0.5);
-    z-index: -1;
-}
 
-#perso2 {
-    filter: blur(0px);
-    position: absolute;
-    right: 0px;
-    bottom: -500px;
-    transform: scale(1.5);
-    z-index: 1;
-}
-
-
-#perso3{
-    filter: blur(0px);
-    position: absolute;
-    right: -250px;
-    bottom: -3500px;
-    transform: scale(0.6);
-    z-index: 1;
-}
-
-
-#perso4 {
-    filter: blur(10px);
-    position: absolute;
-    left: -400px;
-    bottom: -1500px;
-    transform: scale(0.8);
-    z-index: 1;
-}
 
 
 
 /* FOOTER */
 
-footer
-{
-background-color: rgb(255, 252, 77);  
-   display : flex;
-   height : 10vh;
-   background-color: rgb(255, 252, 77);  
-   width : 100%;
-   overflow: auto;
-   align-items: center;
+footer {
+    background-color: rgb(255, 252, 77);
+    display: flex;
+    height: 10vh;
+    background-color: rgb(255, 252, 77);
+    width: 100%;
+    overflow: auto;
+    align-items: center;
 }
 
-#utils_left
-{
-   display: flex;
-   flex-wrap: wrap;
-   font-size: 1.7vh;
-   height: 70%;
-   justify-content: space-between;
-   list-style-type: none;
-   padding :0 1em;
-   width: 50%;
-   align-items: center;
+#utils_left {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.7vh;
+    height: 70%;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0 1em;
+    width: 50%;
+    align-items: center;
 }
 
-#utils_left li a
-{
-   color : #ff1818;
-   font-size: 2em;
-   text-decoration: none;
-   width: auto;
-}
-
-#utils_right
-{
-   display: flex;
-   flex-wrap: wrap;
-   font-size: 1.7vh;
-   height: 50%;
-   justify-content: space-between;
-   list-style-type: none;
-   margin-left : 30%;
-   padding :0.5em 1em;
-   width: 50%;
-}
-
-#utils_right li a
-{
-   color : #ff1818;
-   text-decoration: none;
-   width: auto;
-}
-
-span 
-{
+#utils_left li a {
     color: #ff1818;
-    font-family : "legothick";
-    src : url('Legothick.ttf');
+    font-size: 2em;
+    text-decoration: none;
+    width: auto;
+}
+
+#utils_right {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.7vh;
+    height: 50%;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-left: 30%;
+    padding: 0.5em 1em;
+    width: 50%;
+}
+
+#utils_right li a {
+    color: #ff1818;
+    text-decoration: none;
+    width: auto;
+}
+
+span {
+    color: #ff1818;
+    font-family: "legothick";
+    src: url('Legothick.ttf');
     font-size: 2em;
 }
 
-@media screen and (max-width: 961px)
-{
-    footer
-{
-background-color: rgb(255, 252, 77);  
-   display : flex;
-   height : 10vh;
-   background-color: rgb(255, 252, 77);  
-   width : 100%;
-   overflow: auto;
-   align-items: center;
-}
-   #utils_left
-   {
-       display: flex;
-       flex-direction: column;
-       align-items: flex-start;
-       flex-wrap: wrap;
-       font-size: 1.7vh;
-       height: 90%;
-       list-style-type: none;
-       padding :0 1em;
-       width: 75%;
-       
-   }
-
-   #utils_right
-   {
-       display: flex;
-       flex-wrap: wrap;
-       font-size: 1.7vh;
-       height: 50%;
-       justify-content: space-between;
-       list-style-type: none;
-       margin-left : 0;
-       padding :0.5em 1em;
-       width: 100%;
-   }
-
-   span 
-   {
-    color: #ff1818;
-    font-family : "legothick";
-    src : url('Legothick.ttf');
-    font-size: 1.5em;  
+@media screen and (max-width: 961px) {
+    footer {
+        background-color: rgb(255, 252, 77);
+        display: flex;
+        height: 10vh;
+        background-color: rgb(255, 252, 77);
+        width: 100%;
+        overflow: auto;
+        align-items: center;
     }
 
-    #utils_left li a
-    {
-    color : #ff1818;
-    font-size: 1.5em;
-    text-decoration: none;
-    width: auto;
+    #utils_left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        font-size: 1.7vh;
+        height: 90%;
+        list-style-type: none;
+        padding: 0 1em;
+        width: 75%;
+
     }
 
-    #utils_right li a
-    {
-    color : #ff1818;
-    font-size : 1.3em;
-    text-decoration: none;
-    width: auto;
+    #utils_right {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1.7vh;
+        height: 50%;
+        justify-content: space-between;
+        list-style-type: none;
+        margin-left: 0;
+        padding: 0.5em 1em;
+        width: 100%;
+    }
+
+    span {
+        color: #ff1818;
+        font-family: "legothick";
+        src: url('Legothick.ttf');
+        font-size: 1.5em;
+    }
+
+    #utils_left li a {
+        color: #ff1818;
+        font-size: 1.5em;
+        text-decoration: none;
+        width: auto;
+    }
+
+    #utils_right li a {
+        color: #ff1818;
+        font-size: 1.3em;
+        text-decoration: none;
+        width: auto;
     }
 
 
     html {
         scroll-behavior: smooth;
-      }
-      
-      @media (prefers-reduced-motion: reduce) {
-        html {
-          scroll-behavior: auto;
-        }
-      }
+    }
 
-.background {
-    background-image:url(https://i.postimg.cc/15C5RHmZ/elodie-oudot-Light.jpg);
-    height: 100%;
-    width: 100%;
+    .perso1 {
+        display: none;
+    }
+
+
+    .perso2
+        {
+            display: none;
+        }
+
+    .perso3
+    {
+        display: none;
+    }
+
+    .perso4 {
+        display: none;
+    }
+
+    .img_cat {
+        border: solid 0.5em #ececec;
+    }
 }
