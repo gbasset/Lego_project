@@ -18,7 +18,7 @@ body {
 h1 {
    text-align: center;
    font-weight: bold;
-   color: white;
+   color: rgb(251, 255, 34);
    font-size: 45px;
    padding: 16px;
    text-align: center;
@@ -170,7 +170,7 @@ h1 {
 footer {
    display: flex;
    height: 10vh;
-   background-image: url(https://i.postimg.cc/k4G6vwjq/test-background-yellow.png);
+   background-image: url(https://i.postimg.cc/ydGJQ959/test-background.png);
    border-top: 2px solid rgba(255, 7, 7, 0.884);
    width: 100%;
    /* --- ici  permet de garder le footer sticky ---- */
@@ -223,6 +223,15 @@ footer {
    width: auto;
    
 }
+#utils_right li a:hover {
+   border-top: 1px solid #ff1818;
+   border-bottom: 1px solid #ff1818;
+}
+#utils_left li a:hover{
+   border-top: 1px solid #ff1818;
+   border-bottom: 1px solid #ff1818;
+   
+}
 
 #utils_right span {
    color: #ff1818;
@@ -234,7 +243,7 @@ footer {
 
 @media only screen and (max-width: 961px) {
    footer {
-      height: auto;
+      height:140px;
       position: fixed;
       bottom: 0;
       left: 0;
@@ -253,26 +262,34 @@ footer {
 
       display: inline-block;
       flex-wrap: wrap;
-      font-size: 2vh;
+      font-size: 2.5vh;
       height: 70%;
       justify-content: space-between;
       list-style-type: none;
       padding: 0 1em;
+      margin:auto;
       
    }
-
-   #utils_right {
-      display: inline-block;
+      
+      #utils_right li a {
+         color: #ff1818;
+         text-decoration: none;
+         width: auto;
+         display: inline-block;
       flex-wrap: wrap;
       font-size: 2vh;
-      height: 50%;
-      justify-content: space-between;
-      list-style-type: none;
-      margin-left: 10%;
-      padding: 0.5em 1em;
-
-   }
+         
+      }
    
+      #utils_right {
+       display: inline-flex;
+       justify-content: space-between;
+      font-size: 2.5vh;
+      height: 70%;
+      list-style-type: none;
+      padding: 0 1em;
+      margin:auto;
+      
 
 
 }
