@@ -62,7 +62,7 @@ h1 {
    margin: 0px 0px 10px 0px;
    border: 1px solid rgb(255, 251, 40);
    padding: 20px;
-   background: rgb(255, 252, 61);
+   background-image: url(https://i.postimg.cc/k4G6vwjq/test-background-yellow.png);
 }
 
 .form-style-new fieldset legend {
@@ -72,7 +72,7 @@ h1 {
    border-left: 1px solid rgb(255, 251, 40);
    border-right: 1px solid rgb(255, 251, 40);
    border-radius: 27px 55px 100px 0px;
-   background: rgb(255, 251, 40);
+   background-color: #d4d400;
    padding: 0px 8px 3px 8px;
    box-shadow: -0px -1px 1px rgb(255, 14, 14);
    -moz-box-shadow: -0px -1px 1px rgb(255, 14, 14);
@@ -87,7 +87,7 @@ h1 {
    margin: 0px 50px 40px 50px;
    border: 1px solid rgb(255, 251, 40);
    padding: 15px;
-   background: rgb(255, 252, 61);
+   background-image: url(https://i.postimg.cc/k4G6vwjq/test-background-yellow.png);
 
 }
 
@@ -140,23 +140,21 @@ h1 {
 
 .form-style-new input[type=submit],
 .form-style-new input[type=button] {
-   background: rgb(240, 255, 80);
+   background-image: url(https://i.postimg.cc/k4G6vwjq/test-background-yellow.png);
    border: 1px solid rgb(255, 241, 44);
    padding: 5px 15px 5px 15px;
    color: rgb(255, 0, 0);
-   box-shadow: inset -1px -1px 3px rgba(255, 0, 0, 0.959);
-   -moz-box-shadow: inset -1px -1px 3px rgba(255, 0, 0, 0.959);
-   -webkit-box-shadow: inset -1px -1px 3px rgba(255, 0, 0, 0.959);
    border-radius: 3px;
    border-radius: 3px;
    -webkit-border-radius: 3px;
    -moz-border-radius: 3px;
-   font-weight: bold;
+   font-weight: 1000;
+
 }
 
 .form-style-new input[type=submit] {
    margin-left: 70%;
-   margin-bottom: 130px;
+   margin-bottom: 150px;
 
 
 }
@@ -170,10 +168,9 @@ h1 {
 /* ------------------ Here for the footer secton ----------- */
 
 footer {
-   background-color: rgb(255, 252, 77);
    display: flex;
    height: 10vh;
-   background-color: rgb(255, 252, 77);
+   background-image: url(https://i.postimg.cc/k4G6vwjq/test-background-yellow.png);
    border-top: 2px solid rgba(255, 7, 7, 0.884);
    width: 100%;
    /* --- ici  permet de garder le footer sticky ---- */
@@ -191,8 +188,8 @@ footer {
 #utils_left {
    display: flex;
    flex-wrap: wrap;
-   font-size: 2vh;
-   height: 50%;
+   font-size: 2.5vh;
+   font-weight: 1000;
    justify-content: space-between;
    list-style-type: none;
    padding: 0 1em;
@@ -204,25 +201,27 @@ footer {
    color: #ff1818;
    text-decoration: none;
    width: auto;
+   
 }
 
 #utils_right {
    display: flex;
    flex-wrap: wrap;
-   font-size: 2vh;
-   height: 50%;
+   font-size: 2.5vh;
    justify-content: space-between;
    list-style-type: none;
    margin-left: 30%;
    padding: 0.5em 1em;
    margin-top: 30px;
    width: 12%;
+   font-weight: 1000;
 }
 
 #utils_right li a {
    color: #ff1818;
    text-decoration: none;
    width: auto;
+   
 }
 
 #utils_right span {
@@ -253,25 +252,26 @@ footer {
 
       display: inline-block;
       flex-wrap: wrap;
-      font-size: 1.7vh;
+      font-size: 2vh;
       height: 70%;
       justify-content: space-between;
       list-style-type: none;
       padding: 0 1em;
-      width: 75%;
+      
    }
 
    #utils_right {
       display: inline-block;
       flex-wrap: wrap;
-      font-size: 1.7vh;
+      font-size: 2vh;
       height: 50%;
       justify-content: space-between;
       list-style-type: none;
       margin-left: 10%;
       padding: 0.5em 1em;
-      width: 50%;
+
    }
+   
 
 
 }
