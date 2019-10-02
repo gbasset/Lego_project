@@ -19,13 +19,10 @@
 
     <body>
 
-        <!-- <img class="personnage" src="https://i.postimg.cc/SsyQpMpy/perso2.png" id="perso1" alt="perso1"> -->
-
-        <img class="personnage" src="https://i.postimg.cc/qqYz0xrP/perso1.png" id="perso2" alt="perso2">
-
-        <img class="personnage" src="https://i.postimg.cc/NFLZm1Xf/perso4.png" id="perso3" alt="perso3">
-
-        <!-- <img class="personnage" src="https://i.postimg.cc/qBzmqRCZ/perso6.png" id="perso4" alt="perso4"> -->
+        <img src="https://i.postimg.cc/SsyQpMpy/perso2.png" class="perso1 rellax" id="perso1" alt="perso1" data-rellax-speed="10">
+        <img src="https://i.postimg.cc/qqYz0xrP/perso1.png" class="perso2 rellax" id="perso2" alt="perso2" data-rellax-speed="10">
+        <img src="https://i.postimg.cc/NFLZm1Xf/perso4.png" class="perso3 rellax" id="perso3" alt="perso3" data-rellax-speed="5">
+        <img src="https://i.postimg.cc/qBzmqRCZ/perso6.png" class="perso4 rellax" id="perso4" alt="perso4">
 
         <!-- BURGER MENU -->
 
@@ -64,8 +61,8 @@
         <div class="menuContainer">
 
             <div class="containerPresentation">
-                <div class="textPresentation">BOB RAZOWSKY</div>
-                <img class="legoFace" src="http://fr.bricker.info/images/minifigs/njo327.png.pagespeed.ce.Z2mLR7iX7I.png">
+                <img class="testPresentation" src="slack-imgs.com.png">
+                <img class="legoFace" src="https://i.postimg.cc/8PmBzpnk/BOB.png">
             </div>
 
             <!-- news container -->
@@ -106,7 +103,6 @@
                 <div class="text">LIFESTYLE</div>
                 <a href="articleCategorie.html" title="Link to the Politic Page"></a>
             </div>
-            
             <div class="container">
                     <img class="img_cat" id="voyage" src="https://gunaxin.com/wp-content/uploads/gallery/lego-minifig-photographer/legography-05.jpg">
                 <div class="text">TRAVEL</div>
@@ -159,6 +155,10 @@
             </ul>
 <div class="background"></div>
     </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.10.0/rellax.min.js"></script>
+        <script>
+            const rellax = new Rellax('.rellax');
+        </script>
 
         <script src="homepage.js"></script>
     </body>
