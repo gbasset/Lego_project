@@ -225,7 +225,8 @@ footer {
 }
 
 #utils_right span {
-   color: #ff1818
+   color: #ff1818;
+   width: auto;
 }
 
 /* ----------------------------      Media Queries      --------------------------------------------  */
