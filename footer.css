@@ -7,8 +7,8 @@
 footer {
    display: flex;
    height: 10vh;
-   background-image: url(https://i.postimg.cc/k4G6vwjq/test-background-yellow.png);
-   border-top: 2px solid rgba(255, 7, 7, 0.884);
+   background-image: url(https://i.postimg.cc/ydGJQ959/test-background.png);
+   border-top: 3px solid rgba(255, 7, 7, 0.884);
    width: 100%;
    /* --- ici  permet de garder le footer sticky ---- */
    position: fixed;
@@ -40,10 +40,14 @@ footer {
 #utils_left li a {
    color: #ff1818;
    text-decoration: none;
-   width: auto;
    
 }
 
+#utils_left li a:hover{
+   border-top: 1px solid #ff1818;
+   border-bottom: 1px solid #ff1818;
+   
+}
 
 #utils_right {
    display: flex;
@@ -54,7 +58,7 @@ footer {
    margin-left: 30%;
    padding: 0.5em 1em;
    margin-top: 30px;
-   width: 12%;
+   width: 50%;
    font-weight: 1000;
 }
 
@@ -65,7 +69,10 @@ footer {
    width: auto;
    
 }
-
+#utils_right li a:hover {
+   border-top: 1px solid #ff1818;
+   border-bottom: 1px solid #ff1818;
+}
 
 #utils_right span {
    color: #ff1818;
@@ -116,9 +123,9 @@ footer {
       flex-wrap: wrap;
       font-size: 2vh;
       height: 50%;
-      justify-content: space-between;
+      justify-content: space-around;
       list-style-type: none;
-      margin-left: 10%;
+      margin-left: 15%;
       padding: 0.5em 1em;
 
 
