@@ -392,6 +392,7 @@ footer {
     margin-top: 30px;
     width: 20%;
     font-weight: 1000;
+    align-items: center;
  }
  
  #utils_right li a {

@@ -23,11 +23,11 @@ body
     height: auto;
     margin: 10%;
     width: 80%;
-
 }
 
 .article-title {
     background: #2c3e50;
+    padding-left: 10px;
     display: inline;
     top: 50%;
     left: 50%;
@@ -104,30 +104,35 @@ body
 .container-small-img {
     display : flex;
     flex-direction: column;
+    align-items: center;
     margin-left : 5%;
     margin-top: 40px;
     width: 90%;
 }
 
-.second-img img{
+.second-img {
+    display: flex;
     margin-top : 5%;
-    width : 70%;
+    width: 80vh;
 }
 
 .third-img {
     display: flex;
     justify-content: flex-end;
+    width: 80vh;
 }
 
-.third-img img{
+.third-img {
+    display: flex;
     margin-top : 5%;
-    width : 80%;
+    width : 80vh;
 }
 
-.fourth-img img{
+.fourth-img {
+    display: flex;
     margin-bottom : 5%;
     margin-top : 5%;
-    width : 80%;
+    width : 80vh;;
 }
 
 #canvas3d
@@ -179,7 +184,6 @@ body
     }
 
     .first-small-img {
-        width: 60em;
         margin-left: auto;
         margin-right: auto;
     }
@@ -198,7 +202,7 @@ body
 
     .second-img img{
         margin-top : 5%;
-        width : 60vh;
+        width : 1vh;
     }
 
     .third-img {
@@ -208,13 +212,13 @@ body
 
     .third-img img{
         margin-top : 5%;
-        width : 80vh;
+        width : 1vh;
     }
 
     .fourth-img img{
         margin-bottom : 5%;
         margin-top : 5%;
-        width : 80vh;
+        width : 1vh;
     }
 
     #canvas3d
@@ -252,15 +256,12 @@ body
     border-top: 3px solid rgba(255, 7, 7, 0.884);
     width: 100%;
     /* --- ici  permet de garder le footer sticky ---- */
-    position: fixed;
+
     bottom: 0;
     left: 0;
     right: 0;
     font-family: "legothick";
-    text-transform: uppercase;
- 
- 
- 
+    text-transform: uppercase; 
  }
  
  
@@ -301,6 +302,7 @@ body
     margin-top: 30px;
     width: 50%;
     font-weight: 1000;
+    align-items: center;
  }
  
  
@@ -328,12 +330,9 @@ body
  @media only screen and (max-width: 961px) {
     footer {
        height: auto;
-       position: fixed;
        bottom: 0;
        left: 0;
        right: 0;
- 
- 
     }
  
  
@@ -368,7 +367,30 @@ body
        list-style-type: none;
        margin-left: 15%;
        padding: 0.5em 1em;
- 
- 
+    }
+
+    .second-img {
+        display: flex;
+        margin-top : 5%;
+        width: 50vh;
+    }
+    
+    .third-img {
+        display: flex;
+        justify-content: flex-end;
+        width: 50vh;
+    }
+    
+    .third-img {
+        display: flex;
+        margin-top : 5%;
+        width : 50vh;
+    }
+    
+    .fourth-img {
+        display: flex;
+        margin-bottom : 5%;
+        margin-top : 5%;
+        width : 50vh;;
     }
  }
