@@ -1,142 +1,380 @@
-body
+body 
 {
+    background-image: url("https://i.postimg.cc/ZKrrQrYW/test-background-light-Grey.png");
+}
+
+.container {
+    height: auto;
+    width: auto;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.container-img {
+    position: relative;
+    text-align: center;
+    height: auto;
+    margin-left: 0px;
+}
+
+.img-big {
+    border: solid 0.5em #ececec;
+    display: flex;
+    height: auto;
+    margin: 10%;
+    width: 80%;
+
+}
+
+.article-title {
+    background: #2c3e50;
+    display: inline;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -10%);
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 800;
+    text-align: left;
+}
+
+#entire_article_1 {
+    background-color : #2c3e50;
+    border: solid 0.5em #ececec;
+    flex-direction: column;
+    height: auto;
+    margin-left: 5%;
+    width: 90%;
+    overflow: hidden;
+}
+
+#entire_article_2 {
+    background-color : #2c3e50;
+    border: solid 0.5em #ececec;
+    flex-direction: column;
+    height: auto;
+    margin-left: 5%;
+    width: 90%;
+    overflow: hidden;
+}
+
+.block-text {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin : 3%;
+    text-align: center;
+}
+
+.block-text p {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin : 3%;
+    text-align: center;
+}
+
+.block {
+    display: inline-block;
+}
+
+.first-block-text {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin : 3%;
+    text-align: center;
+}
+
+.first-small-img {
+    width: 90%;
+    margin : 5%;
+}
+
+.second-text p {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin : 3%;
+    text-align: center;
+}
+
+.container-small-img {
     display : flex;
     flex-direction: column;
-    justify-content : center;
+    margin-left : 5%;
+    margin-top: 40px;
+    width: 90%;
 }
 
-.error
+.second-img img{
+    margin-top : 5%;
+    width : 70%;
+}
+
+.third-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.third-img img{
+    margin-top : 5%;
+    width : 80%;
+}
+
+.fourth-img img{
+    margin-bottom : 5%;
+    margin-top : 5%;
+    width : 80%;
+}
+
+#canvas3d
 {
-    display:flex;
-    justify-content : center;
-    height : auto;
+    background-image: url('https://i.postimg.cc/5t279w2D/Alex64-fond-espace-etoiles.png');
+    border-left: solid 0.5em #ececec;
+    border-right: solid 0.5em #ececec;
+    border-top: solid 0.5em #ececec;
+    height : 30vh;
     text-align: center;
-    width : 50%;
+    width: auto;
 }
 
-footer
-{
-    background-color: rgb(255, 252, 77);  
-   display : flex;
-   height : 10vh;
-   background-color: rgb(255, 252, 77);  
-   width : 100%;
-   overflow: auto;
-   align-items: center;
+.pic-end-article {
+    opacity: 0.5;
+    margin-top: 80px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#utils_left
-{
-   display: flex;
-   flex-wrap: wrap;
-   font-size: 1.7vh;
-   height: 70%;
-   justify-content: space-between;
-   list-style-type: none;
-   padding :0 1em;
-   width: 50%;
-   align-items: center;
+.arrow {
+    margin-bottom: 20vh;
+    margin-top: 20px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
-#utils_left li a
-{
-   color : #ff1818;
-   font-family : "legothick";
-   font-size: 2em;
-   text-decoration: none;
-   width: auto;
-}
 
-#utils_right
-{
-   display: flex;
-   flex-wrap: wrap;
-   font-size: 1.7vh;
-   height: 50%;
-   justify-content: space-between;
-   list-style-type: none;
-   margin-left : 30%;
-   padding :0.5em 1em;
-   width: 50%;
-}
+@media screen and (min-width: 750px ) {
 
-#utils_right li a
-{
-   color : #ff1818;
-   font-family : "legothick";
-   font-size: 2em;
-   text-decoration: none;
-   width: auto;
-}
-
-span 
-{
-    color: #ff1818;
-    font-family : "legothick";
-    src : url('Legothick.ttf');
-    font-size: 2em;
-}
-
-@media screen and (max-width: 961px)
-{
-    footer
-{
-background-color: rgb(255, 252, 77);  
-   display : flex;
-   height : 10vh;
-   background-color: rgb(255, 252, 77);  
-   width : 100%;
-   overflow: auto;
-   align-items: center;
-}
-   #utils_left
-   {
-       display: flex;
-       flex-direction: column;
-       align-items: flex-start;
-       flex-wrap: wrap;
-       font-size: 1.7vh;
-       height: 90%;
-       list-style-type: none;
-       padding :0 1em;
-       width: 75%;
-       
-   }
-
-   #utils_right
-   {
-       display: flex;
-       flex-wrap: wrap;
-       font-size: 1.7vh;
-       height: 50%;
-       justify-content: space-between;
-       list-style-type: none;
-       margin-left : 0;
-       padding :0.5em 1em;
-       width: 100%;
-   }
-
-   span 
-   {
-    color: #ff1818;
-    font-family : "legothick";
-    src : url('Legothick.ttf');
-    font-size: 1.5em;  
+    #entire_article_1 {
+        height: auto;
     }
 
-    #utils_left li a
+    .container-img {
+        width: 60em;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .article-title {
+        font-size: 40px;
+    }
+
+    .first-small-img {
+        width: 60em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .block {
+        text-align: center;
+    }
+
+    .container-small-img {
+        display : flex;
+        flex-direction: column;
+        margin-left : 10%;
+        margin-top: 40px;
+        width: 80%;
+    }
+
+    .second-img img{
+        margin-top : 5%;
+        width : 60vh;
+    }
+
+    .third-img {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .third-img img{
+        margin-top : 5%;
+        width : 80vh;
+    }
+
+    .fourth-img img{
+        margin-bottom : 5%;
+        margin-top : 5%;
+        width : 80vh;
+    }
+
+    #canvas3d
     {
-    color : #ff1818;
-    font-size: 1.5em;
+        background-image: url('https://i.postimg.cc/5t279w2D/Alex64-fond-espace-etoiles.png');
+        height : 80vh;
+        width: auto;
+    }
+    .arrow {
+        margin-bottom: 10vh;
+        margin-top: 20px;
+        height: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+
+} 
+
+/* ------------------ Here for the footer secton ----------- */
+
+
+@font-face {
+    font-family: "legothick";
+    src: url('Legothick.ttf');
+ }
+ 
+ 
+ footer {
+    display: flex;
+    height: 10vh;
+    background-image: url(https://i.postimg.cc/ydGJQ959/test-background.png);
+    border-top: 3px solid rgba(255, 7, 7, 0.884);
+    width: 100%;
+    /* --- ici  permet de garder le footer sticky ---- */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: "legothick";
+    text-transform: uppercase;
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ #utils_left {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2.5vh;
+    font-weight: 1000;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0 1em;
+    margin-top: 40px;
+    width: 50%;
+ }
+ 
+ 
+ #utils_left li a {
+    color: #ff1818;
+    text-decoration: none;
+    
+ }
+ 
+ #utils_left li a:hover{
+    border-top: 1px solid #ff1818;
+    border-bottom: 1px solid #ff1818;
+    
+ }
+ 
+ #utils_right {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2.5vh;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-left: 30%;
+    padding: 0.5em 1em;
+    margin-top: 30px;
+    width: 50%;
+    font-weight: 1000;
+ }
+ 
+ 
+ #utils_right li a {
+    color: #ff1818;
     text-decoration: none;
     width: auto;
+    
+ }
+ #utils_right li a:hover {
+    border-top: 1px solid #ff1818;
+    border-bottom: 1px solid #ff1818;
+ }
+ 
+ #utils_right span {
+    color: #ff1818;
+    width: auto;
+ }
+ 
+ 
+ /* ----------------------------      Media Queries      --------------------------------------------  */
+ 
+ 
+ 
+ @media only screen and (max-width: 961px) {
+    footer {
+       height: auto;
+       position: fixed;
+       bottom: 0;
+       left: 0;
+       right: 0;
+ 
+ 
     }
-    #utils_right li a
-    {
-       color : #ff1818;
-       font-family : "legothick";
-       font-size: 1.3em;
-       text-decoration: none;
-       width: auto;
+ 
+ 
+    .form-style-new {
+       max-width: 600px;
+       height: auto;
+       font-family: Arial, Helvetica, sans-serif;
+       margin: auto;
     }
-}
+ 
+ 
+    #utils_left {
+ 
+ 
+       display: inline-block;
+       flex-wrap: wrap;
+       font-size: 2vh;
+       height: 70%;
+       justify-content: space-between;
+       list-style-type: none;
+       padding: 0 1em;
+       
+    }
+ 
+ 
+    #utils_right {
+       display: inline-block;
+       flex-wrap: wrap;
+       font-size: 2vh;
+       height: 50%;
+       justify-content: space-around;
+       list-style-type: none;
+       margin-left: 15%;
+       padding: 0.5em 1em;
+ 
+ 
+    }
+    
+ 
+ 
+ 
+ }
+
+ 
