@@ -1,130 +1,293 @@
-body
-{
-   padding : 0;
+@font-face {
+   font-family: "legothick";
+   src: url('Legothick.ttf');
+}
+
+/* ----------------   Body styles -------------------------- */
+
+body {
+   padding: 0;
    margin: 0;
    /* min-height : 100%; */
-   background-image:url(https://image.noelshack.com/fichiers/2019/38/4/1568893960-test-fond-ecran2.jpg) ;
-   background-attachment: fixed;
-   background-repeat: no-repeat;
-   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-   background-size: cover; /* version standardisée */
-}
-   
-  h1 {
-    text-align: center;
-    font-weight: bolder;
-    color: rgb(0, 0, 0);
-    
-  }
-
-input 
-{ display: block;
-  margin: auto;
-  margin-top: 20px;
-  padding: auto;
-  width: 80%;
-}
-textarea
-{ display: block;
-  margin: auto;
-  margin-top: 20px;
-  padding: auto;
-  width: 50%;
-  text-align: center;
-  color: gray;
+   background-image: url(https://i.postimg.cc/L5ZJr5KW/test-background-light-Grey.png);
 
 }
-  
-  #submit {
-    width: 100px;
-    margin:auto;
-    margin-top: 10px;
-  }
 
-  footer
-{
-   background-color: rgb(255, 252, 77);  
-   display : flex;
-   height : 10vh;
-   background-color: rgb(255, 252, 77);  
-   width : 100%;
-   
-   /* ici */
-   position: absolute; 
-   bottom: 0; 
-   left: 0; 
-   right: 0;
+
+
+h1 {
+   text-align: center;
+   font-weight: bold;
+   color: rgb(251, 255, 34);
+   font-size: 45px;
+   padding: 16px;
+   text-align: center;
+   font-family: "legothick";
+   text-shadow: -1px -1px rgb(253, 253, 253), 1px 1px rgb(0, 0, 0), -3px 0 4px #000;
 }
 
 
-#utils_left
-{
+/* --------------------  form --------------------------- */
+
+
+.form-style-new {
+   max-width: 800px;
+   height: auto;
+   font-family: Arial, Helvetica, sans-serif;
+   margin: auto;
+
+}
+
+.form-style-new label {
+   display: block;
+   align-items: center;
+
+
+}
+
+.form-style-new label>span {
+
+   width: 200px;
+   color: rgb(255, 0, 0);
+   font-weight: bold;
+   font-size: 18px;
+   margin-right: 5px;
+
+
+
+}
+
+.form-style-new fieldset.one {
+   border-radius: 50px 40px 95px 20px;
+   margin: 0px 0px 10px 0px;
+   border: 1px solid rgb(255, 251, 40);
+   padding: 20px;
+   background-image: url(https://i.postimg.cc/k4G6vwjq/test-background-yellow.png);
+}
+
+.form-style-new fieldset legend {
+   color: rgb(255, 0, 0);
+   font-weight: bold;
+   border-top: 1px solid rgb(255, 251, 40);
+   border-left: 1px solid rgb(255, 251, 40);
+   border-right: 1px solid rgb(255, 251, 40);
+   border-radius: 27px 55px 100px 0px;
+   background-color: #d4d400;
+   padding: 0px 8px 3px 8px;
+   box-shadow: -0px -1px 1px rgb(255, 14, 14);
+   -moz-box-shadow: -0px -1px 1px rgb(255, 14, 14);
+   -webkit-box-shadow: -0px -1px 1px rgb(255, 14, 14);
+   font-size: 15px;
+}
+
+
+
+.secondform fieldset {
+   border-radius: 50px 40px 80px 20px;
+   margin: 0px 50px 40px 50px;
+   border: 1px solid rgb(255, 251, 40);
+   padding: 15px;
+   background-image: url(https://i.postimg.cc/k4G6vwjq/test-background-yellow.png);
+
+}
+
+.form-style-new textarea {
+   width: 300px;
+   height: 100px;
+   padding: 15px 0px 80px 10px;
+   font-weight: bold;
+   text-align: center;
+
+}
+
+.form-style-new input[type=text],
+.form-style-new input[type=number],
+.form-style-new input[type=email],
+.form-style-new textarea {
+   border-radius: 3px;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border: 1px solid rgb(255, 253, 109);
+   outline: none;
+   color: rgb(255, 0, 0);
+   padding: 5px 8px 5px 8px;
+   box-shadow: inset 1px 1px 4px #FFD5E7;
+   -moz-box-shadow: inset 1px 1px 4px #FFD5E7;
+   -webkit-box-shadow: inset 1px 1px 4px #FFD5E7;
+   background: rgb(242, 247, 181);
+   width: 90%;
+   margin-bottom: 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.form-style-new select {
+   border: 1px solid rgb(255, 238, 85);
+   outline: none;
+   color: rgb(255, 0, 0);
+   padding: 5px 8px 5px 8px;
+   box-shadow: inset 1px 1px 4px #FFD5E7;
+   -moz-box-shadow: inset 1px 1px 4px #FFD5E7;
+   -webkit-box-shadow: inset 1px 1px 4px #FFD5E7;
+   background: rgb(242, 247, 181);
+   width: 95%;
+   margin-bottom: 15px;
+   margin-right: auto;
+   margin-left: auto;
+   font-weight: bold;
+   text-align: center;
+}
+
+.form-style-new input[type=submit],
+.form-style-new input[type=button] {
+   background-image: url(https://i.postimg.cc/k4G6vwjq/test-background-yellow.png);
+   border: 1px solid rgb(255, 241, 44);
+   padding: 5px 15px 5px 15px;
+   color: rgb(255, 0, 0);
+   border-radius: 3px;
+   border-radius: 3px;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   font-weight: 1000;
+
+}
+
+.form-style-new input[type=submit] {
+   margin-left: 70%;
+   margin-bottom: 150px;
+
+
+}
+
+.required {
+   color: red;
+   font-weight: normal;
+}
+
+
+/* ------------------ Here for the footer secton ----------- */
+
+footer {
    display: flex;
-   flex-direction: column;
+   height: 10vh;
+   background-image: url(https://i.postimg.cc/ydGJQ959/test-background.png);
+   border-top: 2px solid rgba(255, 7, 7, 0.884);
+   width: 100%;
+   /* --- ici  permet de garder le footer sticky ---- */
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   font-family: "legothick";
+   text-transform: uppercase;
+
+
+}
+
+
+#utils_left {
+   display: flex;
    flex-wrap: wrap;
-   font-size: 1.7vh;
-   height: 70%;
+   font-size: 2.5vh;
+   font-weight: 1000;
    justify-content: space-between;
    list-style-type: none;
-   padding :0 1em;
+   padding: 0 1em;
+   margin-top: 40px;
    width: 50%;
 }
 
-#utils_left li a
-{
-   color : #ff1818
-;
+#utils_left li a {
+   color: #ff1818;
    text-decoration: none;
    width: auto;
+   
 }
 
-#utils_right
-{
+#utils_right {
    display: flex;
    flex-wrap: wrap;
-   font-size: 1.7vh;
-   height: 50%;
+   font-size: 2.5vh;
    justify-content: space-between;
    list-style-type: none;
-   margin-left : 30%;
-   padding :0.5em 1em;
+   margin-left: 30%;
+   padding: 0.5em 1em;
+   margin-top: 30px;
    width: 12%;
-}#utils_right li a
-{
-   color : #ff1818
-;
-   text-decoration: none;
-   width: auto;
-}
-span {
-    font-weight: bold;
-    color: #ff1818
+   font-weight: 1000;
 }
 
-@media only screen and (max-width: 961px)
-{
-   #utils_left
-   {
-       display: flex;
-       flex-direction: column;
-       flex-wrap: wrap;
-       font-size: 1.7vh;
-       height: 70%;
-       justify-content: space-between;
-       list-style-type: none;
-       padding :0 1em;
-       width: 75%;
+#utils_right li a {
+   color: #ff1818;
+   text-decoration: none;
+   width: auto;
+   
+}
+#utils_right li a:hover {
+   border-top: 1px solid #ff1818;
+   border-bottom: 1px solid #ff1818;
+}
+#utils_left li a:hover{
+   border-top: 1px solid #ff1818;
+   border-bottom: 1px solid #ff1818;
+   
+}
+
+#utils_right span {
+   color: #ff1818;
+   width: auto;
+}
+
+/* ----------------------------      Media Queries      --------------------------------------------  */
+
+
+@media only screen and (max-width: 961px) {
+   footer {
+      height:140px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+
    }
-   #utils_right
-   {
-       display: flex;
-       flex-wrap: wrap;
-       font-size: 1.7vh;
-       height: 50%;
+
+   .form-style-new {
+      max-width: 600px;
+      height: auto;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: auto;
+   }
+
+   #utils_left {
+
+      display: inline-block;
+      flex-wrap: wrap;
+      font-size: 2.5vh;
+      height: 70%;
+      justify-content: space-between;
+      list-style-type: none;
+      padding: 0 1em;
+      margin:auto;
+      
+   }
+      
+      #utils_right li a {
+         color: #ff1818;
+         text-decoration: none;
+         width: auto;
+         display: inline-block;
+      flex-wrap: wrap;
+      font-size: 2vh;
+         
+      }
+   
+      #utils_right {
+       display: inline-flex;
        justify-content: space-between;
-       list-style-type: none;
-       margin-left : 10%;
-       padding :0.5em 1em;
-       width: 50%;
+      font-size: 2.5vh;
+      height: 70%;
+      list-style-type: none;
+      padding: 0 1em;
+      margin:auto;
    }
 }
