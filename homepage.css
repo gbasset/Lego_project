@@ -342,31 +342,102 @@ background-color: rgb(255, 252, 77);
    width: auto;
 }
 
-span 
-{
+/* ------------------ Here for the footer secton ----------- */
+ 
+footer {
+    display: flex;
+    height: 14vh;
+    background-image: url(https://i.postimg.cc/ydGJQ959/test-background.png);
+    border-top: 2px solid rgba(255, 7, 7, 0.884);
+    width: 100%;
+    /* --- ici  permet de garder le footer sticky ---- */
+    /* position: fixed; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: "legothick";
+    text-transform: uppercase;
+ 
+ 
+ }
+ 
+ 
+ #utils_left {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2.5vh;
+    font-weight: 1000;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0 1em;
+    margin-top: 40px;
+    width: 50%;
+ }
+ 
+ #utils_left li a {
     color: #ff1818;
-    font-family : "legothick";
-    src : url('Legothick.ttf');
-    font-size: 2em;
-}
-
-@media screen and (max-width: 961px)
-{
-    footer
-{
-background-color: rgb(255, 252, 77);  
-   display : flex;
-   height : 10vh;
-   background-color: rgb(255, 252, 77);  
-   width : 100%;
-   overflow: auto;
-   align-items: center;
-}
-   #utils_left
-   {
-       display: flex;
-       flex-direction: column;
-       align-items: flex-start;
+    text-decoration: none;
+    width: auto;
+    
+ }
+ 
+ #utils_right {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2.5vh;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-left: 30%;
+    padding: 0.5em 1em;
+    margin-top: 30px;
+    width: 20%;
+    font-weight: 1000;
+    align-items: center;
+ }
+ 
+ #utils_right li a {
+    color: #ff1818;
+    text-decoration: none;
+    width: auto;
+    
+ }
+ #utils_right li a:hover {
+    border-top: 1px solid #ff1818;
+    border-bottom: 1px solid #ff1818;
+ }
+ #utils_left li a:hover{
+    border-top: 1px solid #ff1818;
+    border-bottom: 1px solid #ff1818;
+    
+ }
+ 
+ #utils_right span {
+    color: #ff1818;
+    width: auto;
+ }
+ 
+ /* ----------------------------      Media Queries      --------------------------------------------  */
+ 
+ 
+ @media only screen and (max-width: 961px) {
+    footer {
+       height:140px;
+       bottom: 0;
+       left: 0;
+       right: 0;
+ 
+    }
+ 
+    .form-style-new {
+       max-width: 600px;
+       height: auto;
+       font-family: Arial, Helvetica, sans-serif;
+       margin: auto;
+    }
+ 
+    #utils_left {
+ 
+       display: inline-block;
        flex-wrap: wrap;
        font-size: 1.7vh;
        height: 90%;
@@ -384,32 +455,35 @@ background-color: rgb(255, 252, 77);
        height: 50%;
        justify-content: space-between;
        list-style-type: none;
-       margin-left : 0;
-       padding :0.5em 1em;
-       width: 100%;
-   }
+       padding: 0 1em;
+       margin:auto;
+       }
 
-   span 
-   {
-    color: #ff1818;
-    font-family : "legothick";
-    src : url('Legothick.ttf');
-    font-size: 1.5em;  
+       .perso1 {
+        display: none;
     }
-
-    #utils_left li a
+    
+    
+    .perso2
+        {
+        display: none;
+        }
+    
+    .perso3
     {
-    color : #ff1818;
-    font-size: 1.5em;
-    text-decoration: none;
-    width: auto;
+        display: none;
+    }
+    
+    .perso4 {
+        display: none;
     }
 
-    #utils_right li a
-    {
-    color : #ff1818;
-    font-size : 1.3em;
-    text-decoration: none;
-    width: auto;
-    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.img_cat {
+    border: solid 0.5em #ececec;
 }
