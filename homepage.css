@@ -390,7 +390,7 @@ footer {
     margin-left: 30%;
     padding: 0.5em 1em;
     margin-top: 30px;
-    width: 12%;
+    width: 20%;
     font-weight: 1000;
  }
  
@@ -421,7 +421,6 @@ footer {
  @media only screen and (max-width: 961px) {
     footer {
        height:140px;
-       position: fixed;
        bottom: 0;
        left: 0;
        right: 0;
