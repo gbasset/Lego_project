@@ -346,12 +346,12 @@ p {
  
 footer {
     display: flex;
-    height: 10vh;
+    height: 14vh;
     background-image: url(https://i.postimg.cc/ydGJQ959/test-background.png);
     border-top: 2px solid rgba(255, 7, 7, 0.884);
     width: 100%;
     /* --- ici  permet de garder le footer sticky ---- */
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     left: 0;
     right: 0;
@@ -466,33 +466,31 @@ footer {
        list-style-type: none;
        padding: 0 1em;
        margin:auto;
-       
- 
- 
- }
+       }
+
+       .perso1 {
+        display: none;
+    }
+    
+    
+    .perso2
+        {
+        display: none;
+        }
+    
+    .perso3
+    {
+        display: none;
+    }
+    
+    .perso4 {
+        display: none;
+    }
+
 }
 
 html {
     scroll-behavior: smooth;
-}
-
-.perso1 {
-    display: none;
-}
-
-
-.perso2
-    {
-    display: none;
-    }
-
-.perso3
-{
-    display: none;
-}
-
-.perso4 {
-    display: none;
 }
 
 .img_cat {
