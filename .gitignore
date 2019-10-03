@@ -28,3 +28,4 @@ someOtherfoler/
 *.tar
 *.zip
 .DS_Store
+.vscode
