@@ -164,24 +164,42 @@ h1 {
    font-weight: normal;
 }
 
+/* FOOTER */
+
+#utils_left li a {
+   color: #ff1818;
+   font-size: 2em;
+   text-decoration: none;
+   width: auto;
+}
+
+
+#utils_right li a {
+   color: #ff1818;
+   font-size: 1.8em;
+   text-decoration: none;
+   width: auto;
+}
+#utils_right span {
+   color: #ff1818;
+   width: auto;
+}
 
 /* ------------------ Here for the footer secton ----------- */
 
 footer {
    display: flex;
-   height: 10vh;
+   height: 14vh;
    background-image: url(https://i.postimg.cc/ydGJQ959/test-background.png);
    border-top: 2px solid rgba(255, 7, 7, 0.884);
    width: 100%;
    /* --- ici  permet de garder le footer sticky ---- */
-   position: fixed;
+   /* position: fixed; */
    bottom: 0;
    left: 0;
    right: 0;
    font-family: "legothick";
    text-transform: uppercase;
-
-
 }
 
 
@@ -213,8 +231,9 @@ footer {
    margin-left: 30%;
    padding: 0.5em 1em;
    margin-top: 30px;
-   width: 12%;
+   width: 20%;
    font-weight: 1000;
+   align-items: center;
 }
 
 #utils_right li a {
@@ -243,11 +262,12 @@ footer {
 
 @media only screen and (max-width: 961px) {
    footer {
-      height:140px;
-      position: fixed;
+      height:20vh;
       bottom: 0;
-      left: 0;
-      right: 0;
+       left: 0;
+       right: 0;
+       font-family: "legothick";
+       text-transform: uppercase;
 
    }
 
@@ -259,35 +279,27 @@ footer {
    }
 
    #utils_left {
+       display: flex;
+       flex-wrap: wrap;
+       font-size: 1.7vh;
+       height: 50%;
+       justify-content: space-between;
+       list-style-type: none;
+       padding: 0 1em;
+       margin:auto;
+       width:40%;
+      
+  }
 
-      display: inline-block;
+  #utils_right
+  {
+      display: flex;
       flex-wrap: wrap;
-      font-size: 2.5vh;
-      height: 70%;
+      font-size: 1.7vh;
+      height: 50%;
       justify-content: space-between;
       list-style-type: none;
       padding: 0 1em;
       margin:auto;
-      
-   }
-      
-      #utils_right li a {
-         color: #ff1818;
-         text-decoration: none;
-         width: auto;
-         display: inline-block;
-      flex-wrap: wrap;
-      font-size: 2vh;
-         
       }
-   
-      #utils_right {
-       display: inline-flex;
-       justify-content: space-between;
-      font-size: 2.5vh;
-      height: 70%;
-      list-style-type: none;
-      padding: 0 1em;
-      margin:auto;
    }
-}
