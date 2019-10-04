@@ -328,7 +328,7 @@ p {
         filter: blur(0px);
         position: absolute;
         right: -100px;
-        bottom: -6500px;
+        bottom: -5000px;
         transform: scale(0.6);
         z-index: 1;
         height: 15em;
