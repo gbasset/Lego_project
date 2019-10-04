@@ -29,3 +29,9 @@ someOtherfoler/
 *.zip
 .DS_Store
 .vscode
+finalExport.bin
+finalExport.gltf
+test_center.bin
+test_center.gltf
+test_export.bin
+test_export.gltf
