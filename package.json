@@ -1,24 +1,19 @@
 {
-  "name": "lego_project",
+  "name": "npm_server",
   "version": "1.0.0",
   "description": "",
-  "main": "homepage.js",
+  "main": "index.js",
   "scripts": {
     "start": "npm run open",
     "open": "concurrently \"http-server -a localhost -p 1234\" \"open http://localhost:1234/homepage.html\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Younsunart/Lego_project.git"
-  },
+ },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Younsunart/Lego_project/issues"
-  },
-  "homepage": "https://github.com/Younsunart/Lego_project#readme",
   "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
     "concurrently": "^4.1.2",
-    "http": "0.0.0"
+    "http-server": "^0.11.1"
   }
 }
