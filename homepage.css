@@ -43,6 +43,12 @@ li a {
     text-transform: uppercase;
 }
 
+li a:hover {
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    padding-top: 5px;
+}
+
 #hamburger {
     background-color: rgb(241, 243, 129);
     justify-content: center;
@@ -297,41 +303,46 @@ p {
         margin: 0px 0px 0.5em 0px;
     }
 
-    .perso1 {
+    #perso1 {
         position: absolute;
         left: 5px;
         bottom: 50px;
-        transform: scale(0.5);
+        /* transform: scale(0.5); */
         z-index: -1;
+        height: 15em;
     }
 
-    .perso2 {
+    #perso2 {
         filter: blur(0px);
         position: absolute;
         right: 0px;
-        bottom: -500px;
+        bottom: -2000px;
         transform: scale(1.5);
         z-index: 1;
+        height: 15em;
+
     }
 
 
-    .perso3 {
+    #perso3 {
         filter: blur(0px);
         position: absolute;
-        right: -250px;
-        bottom: -3500px;
+        right: -100px;
+        bottom: -6500px;
         transform: scale(0.6);
         z-index: 1;
+        height: 15em;
     }
 
 
-    .perso4 {
+    #perso4 {
         filter: blur(5px);
         position: absolute;
-        left: -400px;
-        bottom: -1500px;
+        left: -190px;
+        bottom: -1100px;
         transform: scale(0.8);
         z-index: 1;
+        height: 20em;
     }
 }
 
